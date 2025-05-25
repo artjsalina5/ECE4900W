@@ -1,0 +1,5 @@
+\beamer@sectionintoc {1}{Introduction}{6}{0}{1}
+\beamer@sectionintoc {2}{Course Components}{8}{0}{2}
+\beamer@subsectionintoc {2}{1}{Grading Breakdown}{10}{0}{2}
+\beamer@sectionintoc {3}{Tools and Strategies}{11}{0}{3}
+\beamer@sectionintoc {4}{Summary}{13}{0}{4}

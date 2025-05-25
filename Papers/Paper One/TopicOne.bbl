@@ -1,0 +1,848 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{SAEJ3016_2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=c823732636c3fca8652a18a68c2391eb}{%
+           family={{SAE International}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{fullhash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{fullhashraw}{c823732636c3fca8652a18a68c2391eb}
+      \strng{bibnamehash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{authorbibnamehash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{authornamehash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{authorfullhash}{c823732636c3fca8652a18a68c2391eb}
+      \strng{authorfullhashraw}{c823732636c3fca8652a18a68c2391eb}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{SAE International Recommended Practice, SAE Standard J3016_202104}
+      \field{month}{4}
+      \field{note}{Revised April 2021, Issued January 2014}
+      \field{title}{Taxonomy and Definitions for Terms Related to Driving Automation Systems for On-Road Motor Vehicles}
+      \field{year}{2021}
+      \verb{doi}
+      \verb 10.4271/J3016_202104
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.4271/J3016_202104
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.4271/J3016_202104
+      \endverb
+    \endentry
+    \entry{2019Royo}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e2eeca9808142b715019bc527dcd9f96}{%
+           family={Royo},
+           familyi={R\bibinitperiod},
+           given={Santiago},
+           giveni={S\bibinitperiod}}}%
+        {{hash=92fab9a2f17a78ca84f8341717bf2df1}{%
+           family={Ballesta-Garcia},
+           familyi={B\bibinithyphendelim G\bibinitperiod},
+           given={Maria},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{fullhash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{fullhashraw}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{bibnamehash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{authorbibnamehash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{authornamehash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{authorfullhash}{07cbd8d8f78dad56351b09a72cfb153c}
+      \strng{authorfullhashraw}{07cbd8d8f78dad56351b09a72cfb153c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Lidar imaging systems are one of the hottest topics in the optronics industry. The need to sense the surroundings of every autonomous vehicle has pushed forward a race dedicated to deciding the final solution to be implemented. However, the diversity of state-of-the-art approaches to the solution brings a large uncertainty on the decision of the dominant final solution. Furthermore, the performance data of each approach often arise from different manufacturers and developers, which usually have some interest in the dispute. Within this paper, we intend to overcome the situation by providing an introductory, neutral overview of the technology linked to lidar imaging systems for autonomous vehicles, and its current state of development. We start with the main single-point measurement principles utilized, which then are combined with different imaging strategies, also described in the paper. An overview of the features of the light sources and photodetectors specific to lidar imaging systems most frequently used in practice is also presented. Finally, a brief section on pending issues for lidar development in autonomous vehicles has been included, in order to present some of the problems which still need to be solved before implementation may be considered as final. The reader is provided with a detailed bibliography containing both relevant books and state-of-the-art papers for further progress in the subject.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{19}
+      \field{title}{An Overview of Lidar Imaging Systems for Autonomous Vehicles}
+      \field{volume}{9}
+      \field{year}{2019}
+      \verb{doi}
+      \verb 10.3390/app9194093
+      \endverb
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/9/19/4093
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/9/19/4093
+      \endverb
+    \endentry
+    \entry{RT3D}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=fd29282e31386632b8914c57b6af52ae}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e171c63652ef5d90507cbbcc479aa99a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a59620961e0211d061cf9e45d3c35ab1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shice},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41b29c66713d7e710644f4a5bba3229d}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d8a3f556e48c279a12041db46f1e47c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yinhe},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=417dbb5cf4a86930cbfab55d146428ee}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaowei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=65d66c2cabd830e47daf671b3878a518}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Ninghui},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{fullhash}{179414bac0528c715928001064548b3c}
+      \strng{fullhashraw}{179414bac0528c715928001064548b3c}
+      \strng{bibnamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authorbibnamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authornamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authorfullhash}{179414bac0528c715928001064548b3c}
+      \strng{authorfullhashraw}{179414bac0528c715928001064548b3c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics and Automation Letters}
+      \field{number}{4}
+      \field{title}{RT3D: Real-Time 3-D Vehicle Detection in LiDAR Point Cloud for Autonomous Driving}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{3434\bibrangedash 3440}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/LRA.2018.2852843
+      \endverb
+      \keyw{Three-dimensional displays;Convolution;Proposals;Laser radar;Two dimensional displays;Vehicle detection;Feature extraction;Object detection;segmentation and categorization;autonomous agents}
+    \endentry
+    \entry{Han2023FourDRadarSurvey}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=410adcc66150c86e9bbce93b9085f9c7}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=c9a3728dcc2397d1bab78a791b51779b}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=288f1cb2dd384cb5e91127507559fdbc}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{df39ddd0645a61f3ed7b413778151ae9}
+      \strng{fullhash}{928c9b368af700f50f3fedc620bbcb64}
+      \strng{fullhashraw}{928c9b368af700f50f3fedc620bbcb64}
+      \strng{bibnamehash}{928c9b368af700f50f3fedc620bbcb64}
+      \strng{authorbibnamehash}{928c9b368af700f50f3fedc620bbcb64}
+      \strng{authornamehash}{df39ddd0645a61f3ed7b413778151ae9}
+      \strng{authorfullhash}{928c9b368af700f50f3fedc620bbcb64}
+      \strng{authorfullhashraw}{928c9b368af700f50f3fedc620bbcb64}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2306.04242}
+      \field{title}{4D Millimeter‑Wave Radar in Autonomous Driving: A Survey}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2306.04242
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2306.04242
+      \endverb
+    \endentry
+    \entry{Li2022BEVFormer}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=36761771aa8bf1f7b11b86004958f6fc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhiqi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7a01b04c92b0592fe6e559a4e4678ce2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhai},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5012ff87ce2ac6ff494ff1b58dad6975}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hongyang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c92e1a689fa6eae31f7ab57c517b873d}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Enze},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2c6a658dc102c4fb1503bcaa214f8a1e}{%
+           family={Sima},
+           familyi={S\bibinitperiod},
+           given={Chonghao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0998589594fce110efc2b48a654f9def}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f56338c09e204dad3dc344dc1d8a819e}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c80dbb87ee6058c0b81ab8ee017f1170}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{fullhash}{8ddf012fab911281add1b798d2c579d2}
+      \strng{fullhashraw}{8ddf012fab911281add1b798d2c579d2}
+      \strng{bibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorbibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authornamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorfullhash}{8ddf012fab911281add1b798d2c579d2}
+      \strng{authorfullhashraw}{8ddf012fab911281add1b798d2c579d2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2203.17270
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.17270
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.17270
+      \endverb
+    \endentry
+    \entry{Rana2023PerceptionSystems}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=c5ce67a6b4041050aed4ab77423d1999}{%
+           family={Rana},
+           familyi={R\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=9a75ee293f2555f40976345739087998}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=244e8bf6232eb38e08fcdca8ec34bf28}{%
+           family={Gupta},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{efc88a43eb91dda323a1ef9ac782b36c}
+      \strng{fullhash}{b9f741829346cb781d33605b4e7c69ba}
+      \strng{fullhashraw}{b9f741829346cb781d33605b4e7c69ba}
+      \strng{bibnamehash}{b9f741829346cb781d33605b4e7c69ba}
+      \strng{authorbibnamehash}{b9f741829346cb781d33605b4e7c69ba}
+      \strng{authornamehash}{efc88a43eb91dda323a1ef9ac782b36c}
+      \strng{authorfullhash}{b9f741829346cb781d33605b4e7c69ba}
+      \strng{authorfullhashraw}{b9f741829346cb781d33605b4e7c69ba}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Multimedia Tools and Applications}
+      \field{number}{11}
+      \field{title}{The Perception Systems Used in Fully Automated Vehicles: A Comparative Analysis}
+      \field{volume}{82}
+      \field{year}{2023}
+      \field{pages}{15923\bibrangedash 15952}
+      \range{pages}{30}
+      \verb{doi}
+      \verb 10.1007/s11042-023-16000-4
+      \endverb
+    \endentry
+    \entry{Chen2024EndToEndAD}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=dc76eef66c89440e4e5275de607ffbfe}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{285643e98622aae7df83abdb517b753d}
+      \strng{fullhash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{fullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{bibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authorbibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authornamehash}{285643e98622aae7df83abdb517b753d}
+      \strng{authorfullhash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authorfullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{note}{Early access}
+      \field{title}{End‑to‑End Autonomous Driving: Challenges and Frontiers}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2024.XXXXXXX
+      \endverb
+    \endentry
+    \entry{goff2025learningdriveworldmodel}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=aa52b46105b927fca3ccdf6ff8ff9628}{%
+           family={Goff},
+           familyi={G\bibinitperiod},
+           given={Mitchell},
+           giveni={M\bibinitperiod}}}%
+        {{hash=19488e625fb16df8e8a842816e152c5e}{%
+           family={Hogan},
+           familyi={H\bibinitperiod},
+           given={Greg},
+           giveni={G\bibinitperiod}}}%
+        {{hash=abc5245280c4b8ec054767915121cc1f}{%
+           family={Hotz},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+        {{hash=82664fa90d60001ec0ca4ea9ef6b4d36}{%
+           family={Parc\bibnamedelima Locmaria},
+           familyi={P\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Armand},
+           giveni={A\bibinitperiod},
+           prefix={du},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=5760ab428216d20edef28da37a4d4812}{%
+           family={Raczy},
+           familyi={R\bibinitperiod},
+           given={Kacper},
+           giveni={K\bibinitperiod}}}%
+        {{hash=6064b6f383fa2d47260ae0ec3bb7a69a}{%
+           family={Schäfer},
+           familyi={S\bibinitperiod},
+           given={Harald},
+           giveni={H\bibinitperiod}}}%
+        {{hash=7411a78e8eefb2fb903aa6cd7cf752ed}{%
+           family={Shihadeh},
+           familyi={S\bibinitperiod},
+           given={Adeeb},
+           giveni={A\bibinitperiod}}}%
+        {{hash=487e39cb5a7b74ebb8db04eede75f1db}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Weixing},
+           giveni={W\bibinitperiod}}}%
+        {{hash=0d3c36fadfcac6655ea5e96138ea3799}{%
+           family={Yousfi},
+           familyi={Y\bibinitperiod},
+           given={Yassine},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{9ddf19730a0b65070a54084693fe004c}
+      \strng{fullhash}{81858047882efe8a481f061fc9b1104c}
+      \strng{fullhashraw}{81858047882efe8a481f061fc9b1104c}
+      \strng{bibnamehash}{9ddf19730a0b65070a54084693fe004c}
+      \strng{authorbibnamehash}{9ddf19730a0b65070a54084693fe004c}
+      \strng{authornamehash}{9ddf19730a0b65070a54084693fe004c}
+      \strng{authorfullhash}{81858047882efe8a481f061fc9b1104c}
+      \strng{authorfullhashraw}{81858047882efe8a481f061fc9b1104c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Learning to Drive from a World Model}
+      \field{year}{2025}
+      \verb{eprint}
+      \verb 2504.19077
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2504.19077
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2504.19077
+      \endverb
+    \endentry
+    \entry{Esser2021TamingTransformersHighResolutionImage}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e61c1cb5e29d764299a12d1ab334cdc2}{%
+           family={Esser},
+           familyi={E\bibinitperiod},
+           given={Patrick},
+           giveni={P\bibinitperiod}}}%
+        {{hash=0921e3810ca1ba112b5f374d82f0735f}{%
+           family={Rombach},
+           familyi={R\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod}}}%
+        {{hash=030fdbe4b0bf5c4210fa2e50c87b9ff1}{%
+           family={Ommer},
+           familyi={O\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c0004fa70d4d363f99250c0b4a372c7}
+      \strng{fullhash}{2f8fafda1c41a076184e84034903eed5}
+      \strng{fullhashraw}{2f8fafda1c41a076184e84034903eed5}
+      \strng{bibnamehash}{2f8fafda1c41a076184e84034903eed5}
+      \strng{authorbibnamehash}{2f8fafda1c41a076184e84034903eed5}
+      \strng{authornamehash}{1c0004fa70d4d363f99250c0b4a372c7}
+      \strng{authorfullhash}{2f8fafda1c41a076184e84034903eed5}
+      \strng{authorfullhashraw}{2f8fafda1c41a076184e84034903eed5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{Taming Transformers for High-Resolution Image Synthesis}
+      \field{year}{2021}
+      \verb{eprint}
+      \verb 2012.09841
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2012.09841
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2012.09841
+      \endverb
+    \endentry
+    \entry{vaswani2023attentionneed}{article}{}{}
+      \name{author}{8}{}{%
+        {{hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod}}}%
+        {{hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod}}}%
+        {{hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod}}}%
+        {{hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod}}}%
+        {{hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=f2bc899b1160163417da7bf510f15d33}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={Lukasz},
+           giveni={L\bibinitperiod}}}%
+        {{hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{fullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \strng{authorfullhashraw}{f82970bbd2bdd7a002d2af62b743d5cc}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CL}
+      \field{eprinttype}{arXiv}
+      \field{title}{Attention Is All You Need}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 1706.03762
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/1706.03762
+      \endverb
+    \endentry
+    \entry{Haghighi2024}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=aa174ea371bdd132a904a52a01d7eb4f}{%
+           family={Haghighi},
+           familyi={H\bibinitperiod},
+           given={Hamed},
+           giveni={H\bibinitperiod}}}%
+        {{hash=8023d1649e1d1ab371285ae411f8cf48}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xiaomeng},
+           giveni={X\bibinitperiod}}}%
+        {{hash=20f48bde578569db9416356b20f45663}{%
+           family={Jing},
+           familyi={J\bibinitperiod},
+           given={Hao},
+           giveni={H\bibinitperiod}}}%
+        {{hash=cb26792421138ae867564d7574b40fd8}{%
+           family={Dianati},
+           familyi={D\bibinitperiod},
+           given={Mehrdad},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{e6b5d5cf61c142ef87a88c16ab48fb9d}
+      \strng{fullhash}{06430172393670a150bcc724270f1b66}
+      \strng{fullhashraw}{06430172393670a150bcc724270f1b66}
+      \strng{bibnamehash}{06430172393670a150bcc724270f1b66}
+      \strng{authorbibnamehash}{06430172393670a150bcc724270f1b66}
+      \strng{authornamehash}{e6b5d5cf61c142ef87a88c16ab48fb9d}
+      \strng{authorfullhash}{06430172393670a150bcc724270f1b66}
+      \strng{authorfullhashraw}{06430172393670a150bcc724270f1b66}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2402.10079}
+      \field{title}{Data-driven Camera and Lidar Simulation Models for Autonomous Driving: A Review from Generative Models to Volume Renderers}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2402.10079
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2402.10079
+      \endverb
+    \endentry
+    \entry{Liao2024RadarVisionFusion}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=65027af5f4f54f2e6c7bb140253872e2}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Di},
+           giveni={D\bibinitperiod}}}%
+        {{hash=f92b99567ca18f79ac55f8db57b458f1}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Feng},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e764b15756b6b3bc1679e91d4a812a04}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Benlian},
+           giveni={B\bibinitperiod}}}%
+        {{hash=1420919c6473ff982b303ba93c3e5b16}{%
+           family={Liao},
+           familyi={L\bibinitperiod},
+           given={Pan},
+           giveni={P\bibinitperiod}}}%
+        {{hash=fa97927921a403cfe822973e31081dca}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bo},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{fullhash}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \strng{fullhashraw}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \strng{bibnamehash}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \strng{authorbibnamehash}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \strng{authornamehash}{7f0e13b8bc9100b49037998919e091c4}
+      \strng{authorfullhash}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \strng{authorfullhashraw}{7c242f50cf823615fa0ba8ca5f217a1b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{A Survey of Deep Learning Based Radar and Vision Fusion for 3D Object Detection in Autonomous Driving}
+      \field{year}{2024}
+      \verb{eprint}
+      \verb 2406.00714
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2406.00714
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2406.00714
+      \endverb
+    \endentry
+    \entry{Hasanujjaman2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dd35caf262b8c3e8358b56f449f87884}{%
+           family={Hasanujjaman},
+           familyi={H\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=429f5fea6a0335db29c577b123347c12}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b376b45f2760d4af30541180013a435d}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Yeong\bibnamedelima Min},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e05ffcf56540a092455eb7d25292cd0}
+      \strng{fullhash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{fullhashraw}{974219c296fc7c814fdb04b6f463da32}
+      \strng{bibnamehash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authorbibnamehash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authornamehash}{6e05ffcf56540a092455eb7d25292cd0}
+      \strng{authorfullhash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authorfullhashraw}{974219c296fc7c814fdb04b6f463da32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{03}
+      \field{title}{Sensor Fusion in Autonomous Vehicle with Traffic Surveillance Camera System: Detection, Localization, and AI Networking}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{3335}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23063335
+      \endverb
+    \endentry
+    \entry{Zhang2023MultiSensorFusionSurvey}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=602a29bc69d6755cee5ce57fb171886f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c84333257e5fef7e25ef4f7a4111077c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cb7c81e62ac4dfa050f22807acaa57d}
+      \strng{fullhash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{fullhashraw}{b8085a29182f6747872c21c9a3068f25}
+      \strng{bibnamehash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authorbibnamehash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authornamehash}{1cb7c81e62ac4dfa050f22807acaa57d}
+      \strng{authorfullhash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authorfullhashraw}{b8085a29182f6747872c21c9a3068f25}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{9}
+      \field{title}{Multi‑Sensor Fusion Object Detection in Autonomous Driving: A Survey}
+      \field{volume}{25}
+      \field{year}{2023}
+      \field{pages}{2794}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s25092794
+      \endverb
+    \endentry
+    \entry{2023dreissig}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=92c361f0c77549673a60c40de4965087}{%
+           family={Dreissig},
+           familyi={D\bibinitperiod},
+           given={Mariella},
+           giveni={M\bibinitperiod}}}%
+        {{hash=c3ea76fe1cb667daeb0b005c1e3a4b67}{%
+           family={Scheuble},
+           familyi={S\bibinitperiod},
+           given={Dominik},
+           giveni={D\bibinitperiod}}}%
+        {{hash=35199fc7a3edd06823d4a17bf04798e5}{%
+           family={Piewak},
+           familyi={P\bibinitperiod},
+           given={Florian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=5bdc2ab98e7e2c288da2b2ed331a1034}{%
+           family={Boedecker},
+           familyi={B\bibinitperiod},
+           given={Joschka},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b02bc03c34f7ac0fea084073035e2c2e}
+      \strng{fullhash}{38ace545d4851efa7af926f7d1789fea}
+      \strng{fullhashraw}{38ace545d4851efa7af926f7d1789fea}
+      \strng{bibnamehash}{38ace545d4851efa7af926f7d1789fea}
+      \strng{authorbibnamehash}{38ace545d4851efa7af926f7d1789fea}
+      \strng{authornamehash}{b02bc03c34f7ac0fea084073035e2c2e}
+      \strng{authorfullhash}{38ace545d4851efa7af926f7d1789fea}
+      \strng{authorfullhashraw}{38ace545d4851efa7af926f7d1789fea}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2023 IEEE Intelligent Vehicles Symposium (IV)}
+      \field{title}{Survey on LiDAR Perception in Adverse Weather Conditions}
+      \field{year}{2023}
+      \field{pages}{1\bibrangedash 8}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/IV55152.2023.10186539
+      \endverb
+      \keyw{Surveys;Laser radar;Three-dimensional displays;Snow;Sensor fusion;Sensors;Safety}
+    \endentry
+    \entry{Shetty2022LiDARvsCamera}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=e2b89d5df3e45d250c3f4ba7241e9f2c}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Peide},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{fullhash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{fullhashraw}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{bibnamehash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{authorbibnamehash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{authornamehash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{authorfullhash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \strng{authorfullhashraw}{e2b89d5df3e45d250c3f4ba7241e9f2c}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Physics: Conference Series}
+      \field{month}{11}
+      \field{title}{Research on Comparison of LiDAR and Camera in Autonomous Driving}
+      \field{volume}{2093}
+      \field{year}{2021}
+      \field{pages}{012032}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-6596/2093/1/012032
+      \endverb
+    \endentry
+    \entry{Sajjad2021ComparativeDetection}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=51cdfe12efdeb43493743bed18061ee8}{%
+           family={Sajjad},
+           familyi={S\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6b49aefc1284330e1173953c05877fff}{%
+           family={Hussain},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e47cf7f474c82538326e8813368c29c7}{%
+           family={Alam},
+           familyi={A\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{4df8d8cb64a05bf6ecbe28e049926d1b}
+      \strng{fullhash}{915c4f70698b8186890655cafe30ea2e}
+      \strng{fullhashraw}{915c4f70698b8186890655cafe30ea2e}
+      \strng{bibnamehash}{915c4f70698b8186890655cafe30ea2e}
+      \strng{authorbibnamehash}{915c4f70698b8186890655cafe30ea2e}
+      \strng{authornamehash}{4df8d8cb64a05bf6ecbe28e049926d1b}
+      \strng{authorfullhash}{915c4f70698b8186890655cafe30ea2e}
+      \strng{authorfullhashraw}{915c4f70698b8186890655cafe30ea2e}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Innovations in Science and Technology}
+      \field{number}{Special Issue}
+      \field{title}{A Comparative Analysis of Camera, LiDAR and Fusion‑Based Deep Neural Networks for Vehicle Detection}
+      \field{volume}{3}
+      \field{year}{2021}
+      \field{pages}{15\bibrangedash 24}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.33411/IJIST/2021030514
+      \endverb
+      \verb{urlraw}
+      \verb https://journal.50sea.com/index.php/IJIST/article/view/131
+      \endverb
+      \verb{url}
+      \verb https://journal.50sea.com/index.php/IJIST/article/view/131
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
