@@ -126,7 +126,18 @@
 \section*{Abstract}
 \addcontentsline{toc}{section}{Abstract}
 
-This paper evaluates the viability of vision-primary perception systems in autonomous driving, focusing on scalability, efficiency, and environmental resilience. Traditional sensor-fusion architectures based on LiDAR and radar offer high-fidelity spatial mapping but suffer from substantial power consumption, mechanical complexity, and high unit costs, which challenge real-time deployment and mass-market feasibility. Advances in neural perception—particularly transformer-based models and tokenized camera inputs—have enabled camera-only systems to approximate LiDAR-level 3D detection accuracy while operating at a fraction of the computational cost. Benchmark evaluations reveal that vision systems achieve depth estimation errors below three percent and perform within five percent of LiDAR/radar fusion baselines in object detection. Critically, performance gaps in adverse conditions such as fog or night driving are recoverable through the selective integration of millimeter-wave radar. This radar-augmented fallback restores over 80 percent of degraded performance with minimal latency or energy impact. The study advocates for a simplified, vision-first architecture complemented by radar only in edge cases. This paradigm enhances scalability, reduces deployment overhead, and aligns with biologically plausible sensing strategies. LiDAR remains useful for simulation and benchmarking but is unnecessary for live inference.
+This paper evaluates the viability of vision-primary perception systems in
+autonomous driving, focusing on scalability, efficiency, and environmental
+resilience. Traditional sensor-fusion architectures based on LiDAR and radar
+offer high-fidelity spatial mapping but suffer from substantial power
+consumption, mechanical complexity, and high unit costs, which challenge
+real-time deployment and mass-market feasibility. Advances in neural
+perception—particularly transformer-based models and tokenized camera
+inputs—have enabled camera-only systems to approximate LiDAR-level 3D detection
+accuracy while operating at a fraction of the computational cost. Benchmark
+evaluations reveal that vision systems achieve depth estimation errors below
+three percent and perform within five percent of LiDAR/Radar fusion baselines in object detection.
+Critically, performance gaps in adverse conditions such as fog or night driving are recoverable through the selective integration of millimeter-wave radar. This radar-augmented fallback restores over 80 percent of degraded performance with minimal latency or energy impact. The study advocates for a simplified, vision-first architecture complemented by radar only in edge cases. This paradigm enhances scalability, reduces deployment overhead, and aligns with biologically plausible sensing strategies. LiDAR remains useful for simulation and benchmarking but is unnecessary for live inference.
 
 \textbf{Index Terms—Adverse weather robustness, autonomous vehicles, deep
 	learning, depth estimation, energy efficiency, Light Detection and Ranging
@@ -371,7 +382,7 @@ Figure~\ref{fig:visionpipe} can be inferred.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{masking}
+	\includegraphics[width=0.9\textwidth]{masking}
 	\caption{The Vision Pipeline shows the original camera image, the feature map,
 	and the image mask \cite{wang2024}.}
 	\label{fig:visionpipe}
@@ -524,6 +535,7 @@ transformers and simulation. See Figure~\ref{fig:transformer} for more details.
 
 Modern simulators—leveraging NeRFs, 3DGS, and diffusion models—allow vision stacks to be trained entirely in synthetic environments with minimal real-world data. This accelerates iteration and de-risks real-world deployment \autocite{Haghighi2024}.
 
+\section{Further Discussions}
 \subsection{Vision as the Core, Radar as the Shield:}
 
 Elon Musk famously claimed ``LiDAR is a fool's errand" to much surprise at the
