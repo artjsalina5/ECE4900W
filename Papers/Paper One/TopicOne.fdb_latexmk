@@ -1,20 +1,26 @@
 # Fdb version 4
-["biber TopicOne"] 1747698717.92474 "TopicOne.bcf" "TopicOne.bbl" "TopicOne" 1747758780.38534 0
-  "TopicOne.bcf" 1747758780.33632 110916 2af19b866cfdf66bbc55bd9dc161c082 "pdflatex"
-  "sources.bib" 1747698706.08428 10908 5820d8eceb8ce1f3429a408b0e32d477 ""
+["biber TopicOne"] 1748196385.49444 "TopicOne.bcf" "TopicOne.bbl" "TopicOne" 1748196736.55518 0
+  "TopicOne.bcf" 1748196736.50527 112032 ea247bee95d03f2ec3bc6206031ae6cb "pdflatex"
+  "sources.bib" 1748190888.37579 13234 83b3f4e275401816d421ce96349060b5 ""
   (generated)
   "TopicOne.bbl"
   "TopicOne.blg"
   (rewritten before read)
-["pdflatex"] 1747758778.78479 "TopicOne.tex" "TopicOne.pdf" "TopicOne" 1747758780.38552 0
+["pdflatex"] 1748196734.84937 "TopicOne.tex" "TopicOne.pdf" "TopicOne" 1748196736.55539 0
+  "../../images/amcw.png" 1748183488.81249 48058 261d8c76fb0a412ff775297409b6f22a ""
   "../../images/architecture.png" 1747420517.75258 361935 779a6291f4e9e551c17eb8eacf869a07 ""
   "../../images/architecture2.png" 1747422081.55656 140770 71fc8478a97d9f3ce5958e6697a5227c ""
+  "../../images/doppler.png" 1748195864.73113 1900622 f167d78568abf7c647974aca47925f31 ""
+  "../../images/fmcw.png" 1748184808.02424 53282 828cb08f173cddbb1db399ed56c25789 ""
+  "../../images/lidar.png" 1747674142.36416 45239 8738f77df984afe876e25d18e7b3643d ""
   "../../images/lidar_noise.png" 1747673523.15493 687301 42e3846e5ac538ad376d6c004f6b472d ""
   "../../images/lidararchitecture.png" 1747680675.10126 249888 767adc4c4c0b95c67e2e90905f960235 ""
+  "../../images/masking.png" 1748193571.94577 183556 f6520644c8e937fe8bbe480663e10f02 ""
   "../../images/multimodal.png" 1747683545.3479 445731 6cd19a07d60224ca1e39f3e6b8e48920 ""
   "../../images/multimodelarch.png" 1747684022.43845 231550 96dcd91aba087b6a3430dcfc79dc22df ""
   "../../images/uconnlogo.png" 1744920163.23695 249673 7a16062ef39e4714562db84431cd2c08 ""
   "../../images/voxelization.png" 1747698216.02402 340848 bd10da98840226de398e4981b53b1990 ""
+  "../../images/voxels.png" 1748193538.50161 141650 fe25425d7066c756eca0b57f65632a95 ""
   "/etc/texmf/web2c/texmf.cnf" 1747411357.15899 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1136768653 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -75,7 +81,6 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1248133631 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1248133631 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
-  "/usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1461363279 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texlive/texmf-dist/tex/generic/atbegshi/atbegshi.sty" 1575674566 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "/usr/share/texlive/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty" 1576625341 40635 c40361e206be584d448876bba8a64a3b ""
@@ -185,12 +190,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1741904018 41538 c016915c1d51223b6dbbfe27341748a8 ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1747411554 5467255 9a64d1b40e0b893fc5588ecce9d8accf ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1747411616 3346458 047f12ad1655fe2ad356d46510623cfb ""
-  "TopicOne.aux" 1747758780.33422 13492 22a4410a22a1ba3dab0f65d1da193b8f "pdflatex"
-  "TopicOne.bbl" 1747698718.32557 34826 30b9772b057d85dd8d476704135a3e41 "biber TopicOne"
-  "TopicOne.out" 1747758780.33632 6733 9433cce8c514338664170443117dcac5 "pdflatex"
-  "TopicOne.run.xml" 1747758780.33729 2427 100a7fffb1624ec474638e75db2f70bc "pdflatex"
-  "TopicOne.tex" 1747758778.20414 25970 2bc5c17ef11b16e75fc0304e6edecd22 ""
-  "TopicOne.toc" 1747758780.33729 3093 a5d6d09a68b9131c2510573fdfa8ae60 "pdflatex"
+  "TopicOne.aux" 1748196736.50327 18121 95f2d2c81cfda66e1977d2979efddf82 "pdflatex"
+  "TopicOne.bbl" 1748196385.93159 45341 a30719f4642732fa101f61cb32a3de4e "biber TopicOne"
+  "TopicOne.out" 1748196736.50427 6151 d9bfaec25d057d2eb47626962edbacb6 "pdflatex"
+  "TopicOne.run.xml" 1748196736.50618 2427 100a7fffb1624ec474638e75db2f70bc "pdflatex"
+  "TopicOne.tex" 1748196734.03926 31541 135b2dc5cdb6e15a555562fdaef6d977 ""
+  "TopicOne.toc" 1748196736.50618 2888 f4a903ddc035540b37ff5c1b99db54c0 "pdflatex"
   (generated)
   "TopicOne.aux"
   "TopicOne.bcf"

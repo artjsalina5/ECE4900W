@@ -1,15 +1,15 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'TopicOne.blg'
-[27] biber:340> INFO - === Mon May 19, 2025, 19:51:58
+[27] biber:340> INFO - === Sun May 25, 2025, 14:06:25
 [33] Biber.pm:420> INFO - Reading 'TopicOne.bcf'
-[58] Biber.pm:994> INFO - Found 17 citekeys in bib section 0
+[57] Biber.pm:994> INFO - Found 23 citekeys in bib section 0
 [64] Biber.pm:4463> INFO - Processing section 0
-[68] Biber.pm:4654> INFO - Looking for bibtex file 'sources.bib' for section 0
+[67] Biber.pm:4654> INFO - Looking for bibtex file 'sources.bib' for section 0
 [68] bibtex.pm:1713> INFO - LaTeX decoding ...
-[75] bibtex.pm:1519> INFO - Found BibTeX data source 'sources.bib'
-[142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[142] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[142] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[142] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[147] bbl.pm:676> INFO - Writing 'TopicOne.bbl' with encoding 'UTF-8'
-[150] bbl.pm:779> INFO - Output to TopicOne.bbl
+[77] bibtex.pm:1519> INFO - Found BibTeX data source 'sources.bib'
+[159] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[159] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[160] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[160] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[166] bbl.pm:676> INFO - Writing 'TopicOne.bbl' with encoding 'UTF-8'
+[170] bbl.pm:779> INFO - Output to TopicOne.bbl

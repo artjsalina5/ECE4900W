@@ -94,6 +94,97 @@
       \verb https://www.mdpi.com/2076-3417/9/19/4093
       \endverb
     \endentry
+    \entry{petermannopto}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=4a2a21fbaa1df4bb3a067d88ce768445}{%
+           family={Petermann},
+           familyi={P\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berlin, Germany}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{fullhash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{fullhashraw}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{bibnamehash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{authorbibnamehash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{authornamehash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{authorfullhash}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \strng{authorfullhashraw}{4a2a21fbaa1df4bb3a067d88ce768445}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Advances in Optoelectronics}
+      \field{year}{1988}
+    \endentry
+    \entry{RT3D}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=fd29282e31386632b8914c57b6af52ae}{%
+           family={Zeng},
+           familyi={Z\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=e171c63652ef5d90507cbbcc479aa99a}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a59620961e0211d061cf9e45d3c35ab1}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Shice},
+           giveni={S\bibinitperiod}}}%
+        {{hash=41b29c66713d7e710644f4a5bba3229d}{%
+           family={Ye},
+           familyi={Y\bibinitperiod},
+           given={Jing},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8d8a3f556e48c279a12041db46f1e47c}{%
+           family={Han},
+           familyi={H\bibinitperiod},
+           given={Yinhe},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=417dbb5cf4a86930cbfab55d146428ee}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiaowei},
+           giveni={X\bibinitperiod}}}%
+        {{hash=65d66c2cabd830e47daf671b3878a518}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Ninghui},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{fullhash}{179414bac0528c715928001064548b3c}
+      \strng{fullhashraw}{179414bac0528c715928001064548b3c}
+      \strng{bibnamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authorbibnamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authornamehash}{43c50de8dcb9c1bd4ee7024254cefcc0}
+      \strng{authorfullhash}{179414bac0528c715928001064548b3c}
+      \strng{authorfullhashraw}{179414bac0528c715928001064548b3c}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Robotics and Automation Letters}
+      \field{number}{4}
+      \field{title}{RT3D: Real-Time 3-D Vehicle Detection in LiDAR Point Cloud for Autonomous Driving}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{3434\bibrangedash 3440}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1109/LRA.2018.2852843
+      \endverb
+      \keyw{Three-dimensional displays;Convolution;Proposals;Laser radar;Two dimensional displays;Vehicle detection;Feature extraction;Object detection;segmentation and categorization;autonomous agents}
+    \endentry
     \entry{Han2023FourDRadarSurvey}{article}{}{}
       \name{author}{3}{}{%
         {{hash=410adcc66150c86e9bbce93b9085f9c7}{%
@@ -120,8 +211,8 @@
       \strng{authornamehash}{df39ddd0645a61f3ed7b413778151ae9}
       \strng{authorfullhash}{928c9b368af700f50f3fedc620bbcb64}
       \strng{authorfullhashraw}{928c9b368af700f50f3fedc620bbcb64}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2306.04242}
@@ -132,75 +223,6 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2306.04242
-      \endverb
-    \endentry
-    \entry{Li2022BEVFormer}{inproceedings}{}{}
-      \name{author}{8}{}{%
-        {{hash=36761771aa8bf1f7b11b86004958f6fc}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Zhiqi},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=7a01b04c92b0592fe6e559a4e4678ce2}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Wenhai},
-           giveni={W\bibinitperiod}}}%
-        {{hash=5012ff87ce2ac6ff494ff1b58dad6975}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Hongyang},
-           giveni={H\bibinitperiod}}}%
-        {{hash=c92e1a689fa6eae31f7ab57c517b873d}{%
-           family={Xie},
-           familyi={X\bibinitperiod},
-           given={Enze},
-           giveni={E\bibinitperiod}}}%
-        {{hash=2c6a658dc102c4fb1503bcaa214f8a1e}{%
-           family={Sima},
-           familyi={S\bibinitperiod},
-           given={Chonghao},
-           giveni={C\bibinitperiod}}}%
-        {{hash=0998589594fce110efc2b48a654f9def}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={Tong},
-           giveni={T\bibinitperiod}}}%
-        {{hash=f56338c09e204dad3dc344dc1d8a819e}{%
-           family={Yu},
-           familyi={Y\bibinitperiod},
-           given={Qiao},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=c80dbb87ee6058c0b81ab8ee017f1170}{%
-           family={Dai},
-           familyi={D\bibinitperiod},
-           given={Jifeng},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{37340581de52be20b5ee07a609e47d45}
-      \strng{fullhash}{8ddf012fab911281add1b798d2c579d2}
-      \strng{fullhashraw}{8ddf012fab911281add1b798d2c579d2}
-      \strng{bibnamehash}{37340581de52be20b5ee07a609e47d45}
-      \strng{authorbibnamehash}{37340581de52be20b5ee07a609e47d45}
-      \strng{authornamehash}{37340581de52be20b5ee07a609e47d45}
-      \strng{authorfullhash}{8ddf012fab911281add1b798d2c579d2}
-      \strng{authorfullhashraw}{8ddf012fab911281add1b798d2c579d2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{cs.CV}
-      \field{eprinttype}{arXiv}
-      \field{title}{BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers}
-      \field{year}{2022}
-      \verb{eprint}
-      \verb 2203.17270
-      \endverb
-      \verb{urlraw}
-      \verb https://arxiv.org/abs/2203.17270
-      \endverb
-      \verb{url}
-      \verb https://arxiv.org/abs/2203.17270
       \endverb
     \endentry
     \entry{Rana2023PerceptionSystems}{article}{}{}
@@ -229,8 +251,8 @@
       \strng{authornamehash}{efc88a43eb91dda323a1ef9ac782b36c}
       \strng{authorfullhash}{b9f741829346cb781d33605b4e7c69ba}
       \strng{authorfullhashraw}{b9f741829346cb781d33605b4e7c69ba}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Multimedia Tools and Applications}
@@ -242,49 +264,6 @@
       \range{pages}{30}
       \verb{doi}
       \verb 10.1007/s11042-023-16000-4
-      \endverb
-    \endentry
-    \entry{Chen2024EndToEndAD}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
-           family={Huang},
-           familyi={H\bibinitperiod},
-           given={X.},
-           giveni={X\bibinitperiod}}}%
-        {{hash=dc76eef66c89440e4e5275de607ffbfe}{%
-           family={Ma},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
-      }
-      \strng{namehash}{285643e98622aae7df83abdb517b753d}
-      \strng{fullhash}{e7172cb2d8033406f2f7936675c0f1b5}
-      \strng{fullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
-      \strng{bibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
-      \strng{authorbibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
-      \strng{authornamehash}{285643e98622aae7df83abdb517b753d}
-      \strng{authorfullhash}{e7172cb2d8033406f2f7936675c0f1b5}
-      \strng{authorfullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
-      \field{note}{Early access}
-      \field{title}{End‑to‑End Autonomous Driving: Challenges and Frontiers}
-      \field{year}{2024}
-      \verb{doi}
-      \verb 10.1109/TPAMI.2024.XXXXXXX
       \endverb
     \endentry
     \entry{goff2025learningdriveworldmodel}{article}{}{}
@@ -345,8 +324,8 @@
       \strng{authornamehash}{9ddf19730a0b65070a54084693fe004c}
       \strng{authorfullhash}{81858047882efe8a481f061fc9b1104c}
       \strng{authorfullhashraw}{81858047882efe8a481f061fc9b1104c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CV}
@@ -389,8 +368,8 @@
       \strng{authornamehash}{1c0004fa70d4d363f99250c0b4a372c7}
       \strng{authorfullhash}{2f8fafda1c41a076184e84034903eed5}
       \strng{authorfullhashraw}{2f8fafda1c41a076184e84034903eed5}
-      \field{sortinit}{9}
-      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CV}
@@ -405,6 +384,89 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2012.09841
+      \endverb
+    \endentry
+    \entry{Chen2024EndToEndAD}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=ff38b98d2dc65002f66d028a85b9d58d}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=bf1afb45a50313a87b61c9f7a08f8989}{%
+           family={Huang},
+           familyi={H\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=dc76eef66c89440e4e5275de607ffbfe}{%
+           family={Ma},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=38026ba4ee6b102b47bf3ffb41325c8f}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{285643e98622aae7df83abdb517b753d}
+      \strng{fullhash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{fullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{bibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authorbibnamehash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authornamehash}{285643e98622aae7df83abdb517b753d}
+      \strng{authorfullhash}{e7172cb2d8033406f2f7936675c0f1b5}
+      \strng{authorfullhashraw}{e7172cb2d8033406f2f7936675c0f1b5}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Pattern Analysis and Machine Intelligence}
+      \field{note}{Early access}
+      \field{title}{End‑to‑End Autonomous Driving: Challenges and Frontiers}
+      \field{year}{2024}
+      \verb{doi}
+      \verb 10.1109/TPAMI.2024.XXXXXXX
+      \endverb
+    \endentry
+    \entry{drivingsim}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d956e42cfa4cd60ca0209dc553872ed}{%
+           family={Santana},
+           familyi={S\bibinitperiod},
+           given={Eder},
+           giveni={E\bibinitperiod}}}%
+        {{hash=abc5245280c4b8ec054767915121cc1f}{%
+           family={Hotz},
+           familyi={H\bibinitperiod},
+           given={George},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{fullhash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{fullhashraw}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{bibnamehash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{authorbibnamehash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{authornamehash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{authorfullhash}{049a034c31f66c464d7ea354ee87b85e}
+      \strng{authorfullhashraw}{049a034c31f66c464d7ea354ee87b85e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{CoRR}
+      \field{title}{Learning a Driving Simulator}
+      \field{volume}{abs/1608.01230}
+      \field{year}{2016}
+      \verb{eprint}
+      \verb 1608.01230
+      \endverb
+      \verb{urlraw}
+      \verb http://arxiv.org/abs/1608.01230
+      \endverb
+      \verb{url}
+      \verb http://arxiv.org/abs/1608.01230
       \endverb
     \endentry
     \entry{vaswani2023attentionneed}{article}{}{}
@@ -507,8 +569,8 @@
       \strng{authornamehash}{e6b5d5cf61c142ef87a88c16ab48fb9d}
       \strng{authorfullhash}{06430172393670a150bcc724270f1b66}
       \strng{authorfullhashraw}{06430172393670a150bcc724270f1b66}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{arXiv preprint arXiv:2402.10079}
@@ -519,6 +581,273 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2402.10079
+      \endverb
+    \endentry
+    \entry{wang2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dc340e90e108aefd6b9b7f9e468716a1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Xuan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=f90afe81506caa50806828ae807765b0}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Kaiqiang},
+           giveni={K\bibinitperiod}}}%
+        {{hash=fee7af1d47fcd5cc7f11ae77b45c9215}{%
+           family={Chehri},
+           familyi={C\bibinitperiod},
+           given={Abdellah},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5064098b131de07d26539f77fe8e6ed7}
+      \strng{fullhash}{e76dce4c58db420a23fd77b126917fdf}
+      \strng{fullhashraw}{e76dce4c58db420a23fd77b126917fdf}
+      \strng{bibnamehash}{e76dce4c58db420a23fd77b126917fdf}
+      \strng{authorbibnamehash}{e76dce4c58db420a23fd77b126917fdf}
+      \strng{authornamehash}{5064098b131de07d26539f77fe8e6ed7}
+      \strng{authorfullhash}{e76dce4c58db420a23fd77b126917fdf}
+      \strng{authorfullhashraw}{e76dce4c58db420a23fd77b126917fdf}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Transactions on Intelligent Transportation Systems}
+      \field{number}{2}
+      \field{title}{Multi-Sensor Fusion Technology for 3D Object Detection in Autonomous Driving: A Review}
+      \field{volume}{25}
+      \field{year}{2024}
+      \field{pages}{1148\bibrangedash 1165}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1109/TITS.2023.3317372
+      \endverb
+      \keyw{Three-dimensional displays;Object detection;Cameras;Autonomous vehicles;Sensors;Laser radar;Object recognition;Autonomous driving;Autonomous driving;smart cities;multi-sensor fusion;3D object detection;LiDAR}
+    \endentry
+    \entry{kitti}{inproceedings}{}{}
+      \name{author}{3}{}{%
+        {{hash=06133052ac3c14a188601b82783cd4f7}{%
+           family={Geiger},
+           familyi={G\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=f594289a77a4b801a7156edc29235ad8}{%
+           family={Lenz},
+           familyi={L\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=bc58c1e920023b071a4d0695299cf804}{%
+           family={Urtasun},
+           familyi={U\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{0ed1132e2b009ef637750997288e3249}
+      \strng{fullhash}{627edf12ee4004074265a942326edc30}
+      \strng{fullhashraw}{627edf12ee4004074265a942326edc30}
+      \strng{bibnamehash}{627edf12ee4004074265a942326edc30}
+      \strng{authorbibnamehash}{627edf12ee4004074265a942326edc30}
+      \strng{authornamehash}{0ed1132e2b009ef637750997288e3249}
+      \strng{authorfullhash}{627edf12ee4004074265a942326edc30}
+      \strng{authorfullhashraw}{627edf12ee4004074265a942326edc30}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2012 IEEE Conference on Computer Vision and Pattern Recognition}
+      \field{title}{Are we ready for autonomous driving? The KITTI vision benchmark suite}
+      \field{year}{2012}
+      \field{pages}{3354\bibrangedash 3361}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1109/CVPR.2012.6248074
+      \endverb
+      \keyw{Benchmark testing;Cameras;Optical imaging;Visualization;Optical sensors;Measurement}
+    \endentry
+    \entry{nuscenes}{inproceedings}{}{}
+      \name{author}{10}{}{%
+        {{hash=d2047c4d49ddd538f9c22a99dc18fa3c}{%
+           family={Caesar},
+           familyi={C\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6d2898a2a942f70dba274e4ca01c309a}{%
+           family={Bankiti},
+           familyi={B\bibinitperiod},
+           given={Varun},
+           giveni={V\bibinitperiod}}}%
+        {{hash=e9927725a3483dbe3fe8289056f46494}{%
+           family={Lang},
+           familyi={L\bibinitperiod},
+           given={Alex\bibnamedelima H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=9c0abc10b8b8b47d7540b19fe4802ff4}{%
+           family={Vora},
+           familyi={V\bibinitperiod},
+           given={Sourabh},
+           giveni={S\bibinitperiod}}}%
+        {{hash=2bbb3979ebf91b42242a0c58ec57d311}{%
+           family={Liong},
+           familyi={L\bibinitperiod},
+           given={Venice\bibnamedelima Erin},
+           giveni={V\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=6cacd034725d0431a7b1f3fd4a060c02}{%
+           family={Xu},
+           familyi={X\bibinitperiod},
+           given={Qiang},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=5f853094b70c00b55c9bfd73dc41d683}{%
+           family={Krishnan},
+           familyi={K\bibinitperiod},
+           given={Anush},
+           giveni={A\bibinitperiod}}}%
+        {{hash=d627c895a7726afc8a55a9fa241c4b19}{%
+           family={Pan},
+           familyi={P\bibinitperiod},
+           given={Yu},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4dab25d83f7aedebf88253fb9d8e2c64}{%
+           family={Baldan},
+           familyi={B\bibinitperiod},
+           given={Giancarlo},
+           giveni={G\bibinitperiod}}}%
+        {{hash=0c3325985f73ff54cb6bd5443fd77c0e}{%
+           family={Beijbom},
+           familyi={B\bibinitperiod},
+           given={Oscar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c328f527cb71bd917b1f85566566eee}
+      \strng{fullhash}{91d902a41838b390ef9c26ffe8ec7e74}
+      \strng{fullhashraw}{91d902a41838b390ef9c26ffe8ec7e74}
+      \strng{bibnamehash}{2c328f527cb71bd917b1f85566566eee}
+      \strng{authorbibnamehash}{2c328f527cb71bd917b1f85566566eee}
+      \strng{authornamehash}{2c328f527cb71bd917b1f85566566eee}
+      \strng{authorfullhash}{91d902a41838b390ef9c26ffe8ec7e74}
+      \strng{authorfullhashraw}{91d902a41838b390ef9c26ffe8ec7e74}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)}
+      \field{title}{nuScenes: A Multimodal Dataset for Autonomous Driving}
+      \field{year}{2020}
+      \field{pages}{11618\bibrangedash 11628}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1109/CVPR42600.2020.01164
+      \endverb
+      \keyw{Sensors;Laser radar;Three-dimensional displays;Cameras;Radar tracking;Autonomous vehicles}
+    \endentry
+    \entry{Li2022BEVFormer}{inproceedings}{}{}
+      \name{author}{8}{}{%
+        {{hash=36761771aa8bf1f7b11b86004958f6fc}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Zhiqi},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=7a01b04c92b0592fe6e559a4e4678ce2}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Wenhai},
+           giveni={W\bibinitperiod}}}%
+        {{hash=5012ff87ce2ac6ff494ff1b58dad6975}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Hongyang},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c92e1a689fa6eae31f7ab57c517b873d}{%
+           family={Xie},
+           familyi={X\bibinitperiod},
+           given={Enze},
+           giveni={E\bibinitperiod}}}%
+        {{hash=2c6a658dc102c4fb1503bcaa214f8a1e}{%
+           family={Sima},
+           familyi={S\bibinitperiod},
+           given={Chonghao},
+           giveni={C\bibinitperiod}}}%
+        {{hash=0998589594fce110efc2b48a654f9def}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={Tong},
+           giveni={T\bibinitperiod}}}%
+        {{hash=f56338c09e204dad3dc344dc1d8a819e}{%
+           family={Yu},
+           familyi={Y\bibinitperiod},
+           given={Qiao},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c80dbb87ee6058c0b81ab8ee017f1170}{%
+           family={Dai},
+           familyi={D\bibinitperiod},
+           given={Jifeng},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{fullhash}{8ddf012fab911281add1b798d2c579d2}
+      \strng{fullhashraw}{8ddf012fab911281add1b798d2c579d2}
+      \strng{bibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorbibnamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authornamehash}{37340581de52be20b5ee07a609e47d45}
+      \strng{authorfullhash}{8ddf012fab911281add1b798d2c579d2}
+      \strng{authorfullhashraw}{8ddf012fab911281add1b798d2c579d2}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{cs.CV}
+      \field{eprinttype}{arXiv}
+      \field{title}{BEVFormer: Learning Bird's-Eye-View Representation from Multi-Camera Images via Spatiotemporal Transformers}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2203.17270
+      \endverb
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2203.17270
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2203.17270
+      \endverb
+    \endentry
+    \entry{Zhang2023MultiSensorFusionSurvey}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=602a29bc69d6755cee5ce57fb171886f}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=c84333257e5fef7e25ef4f7a4111077c}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \strng{namehash}{1cb7c81e62ac4dfa050f22807acaa57d}
+      \strng{fullhash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{fullhashraw}{b8085a29182f6747872c21c9a3068f25}
+      \strng{bibnamehash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authorbibnamehash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authornamehash}{1cb7c81e62ac4dfa050f22807acaa57d}
+      \strng{authorfullhash}{b8085a29182f6747872c21c9a3068f25}
+      \strng{authorfullhashraw}{b8085a29182f6747872c21c9a3068f25}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{number}{9}
+      \field{title}{Multi‑Sensor Fusion Object Detection in Autonomous Driving: A Survey}
+      \field{volume}{25}
+      \field{year}{2023}
+      \field{pages}{2794}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s25092794
       \endverb
     \endentry
     \entry{Liao2024RadarVisionFusion}{article}{}{}
@@ -557,8 +886,8 @@
       \strng{authornamehash}{7f0e13b8bc9100b49037998919e091c4}
       \strng{authorfullhash}{7c242f50cf823615fa0ba8ca5f217a1b}
       \strng{authorfullhashraw}{7c242f50cf823615fa0ba8ca5f217a1b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{cs.CV}
@@ -573,88 +902,6 @@
       \endverb
       \verb{url}
       \verb https://arxiv.org/abs/2406.00714
-      \endverb
-    \endentry
-    \entry{Hasanujjaman2023}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=dd35caf262b8c3e8358b56f449f87884}{%
-           family={Hasanujjaman},
-           familyi={H\bibinitperiod},
-           given={Muhammad},
-           giveni={M\bibinitperiod}}}%
-        {{hash=429f5fea6a0335db29c577b123347c12}{%
-           family={Chowdhury},
-           familyi={C\bibinitperiod},
-           given={Mostafa},
-           giveni={M\bibinitperiod}}}%
-        {{hash=b376b45f2760d4af30541180013a435d}{%
-           family={Jang},
-           familyi={J\bibinitperiod},
-           given={Yeong\bibnamedelima Min},
-           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \strng{namehash}{6e05ffcf56540a092455eb7d25292cd0}
-      \strng{fullhash}{974219c296fc7c814fdb04b6f463da32}
-      \strng{fullhashraw}{974219c296fc7c814fdb04b6f463da32}
-      \strng{bibnamehash}{974219c296fc7c814fdb04b6f463da32}
-      \strng{authorbibnamehash}{974219c296fc7c814fdb04b6f463da32}
-      \strng{authornamehash}{6e05ffcf56540a092455eb7d25292cd0}
-      \strng{authorfullhash}{974219c296fc7c814fdb04b6f463da32}
-      \strng{authorfullhashraw}{974219c296fc7c814fdb04b6f463da32}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{month}{03}
-      \field{title}{Sensor Fusion in Autonomous Vehicle with Traffic Surveillance Camera System: Detection, Localization, and AI Networking}
-      \field{volume}{23}
-      \field{year}{2023}
-      \field{pages}{3335}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/s23063335
-      \endverb
-    \endentry
-    \entry{Zhang2023MultiSensorFusionSurvey}{article}{}{}
-      \name{author}{3}{}{%
-        {{hash=602a29bc69d6755cee5ce57fb171886f}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Q.},
-           giveni={Q\bibinitperiod}}}%
-        {{hash=c84333257e5fef7e25ef4f7a4111077c}{%
-           family={Wu},
-           familyi={W\bibinitperiod},
-           given={Y.},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=4502ea5dcc2b2cf1ac11fe01b5f68826}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-      }
-      \strng{namehash}{1cb7c81e62ac4dfa050f22807acaa57d}
-      \strng{fullhash}{b8085a29182f6747872c21c9a3068f25}
-      \strng{fullhashraw}{b8085a29182f6747872c21c9a3068f25}
-      \strng{bibnamehash}{b8085a29182f6747872c21c9a3068f25}
-      \strng{authorbibnamehash}{b8085a29182f6747872c21c9a3068f25}
-      \strng{authornamehash}{1cb7c81e62ac4dfa050f22807acaa57d}
-      \strng{authorfullhash}{b8085a29182f6747872c21c9a3068f25}
-      \strng{authorfullhashraw}{b8085a29182f6747872c21c9a3068f25}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Sensors}
-      \field{number}{9}
-      \field{title}{Multi‑Sensor Fusion Object Detection in Autonomous Driving: A Survey}
-      \field{volume}{25}
-      \field{year}{2023}
-      \field{pages}{2794}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.3390/s25092794
       \endverb
     \endentry
     \entry{2023dreissig}{article}{}{}
@@ -688,8 +935,8 @@
       \strng{authornamehash}{b02bc03c34f7ac0fea084073035e2c2e}
       \strng{authorfullhash}{38ace545d4851efa7af926f7d1789fea}
       \strng{authorfullhashraw}{38ace545d4851efa7af926f7d1789fea}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{2023 IEEE Intelligent Vehicles Symposium (IV)}
@@ -718,8 +965,8 @@
       \strng{authornamehash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
       \strng{authorfullhash}{e2b89d5df3e45d250c3f4ba7241e9f2c}
       \strng{authorfullhashraw}{e2b89d5df3e45d250c3f4ba7241e9f2c}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Physics: Conference Series}
@@ -759,8 +1006,8 @@
       \strng{authornamehash}{4df8d8cb64a05bf6ecbe28e049926d1b}
       \strng{authorfullhash}{915c4f70698b8186890655cafe30ea2e}
       \strng{authorfullhashraw}{915c4f70698b8186890655cafe30ea2e}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{International Journal of Innovations in Science and Technology}
@@ -778,6 +1025,47 @@
       \endverb
       \verb{url}
       \verb https://journal.50sea.com/index.php/IJIST/article/view/131
+      \endverb
+    \endentry
+    \entry{Hasanujjaman2023}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dd35caf262b8c3e8358b56f449f87884}{%
+           family={Hasanujjaman},
+           familyi={H\bibinitperiod},
+           given={Muhammad},
+           giveni={M\bibinitperiod}}}%
+        {{hash=429f5fea6a0335db29c577b123347c12}{%
+           family={Chowdhury},
+           familyi={C\bibinitperiod},
+           given={Mostafa},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b376b45f2760d4af30541180013a435d}{%
+           family={Jang},
+           familyi={J\bibinitperiod},
+           given={Yeong\bibnamedelima Min},
+           giveni={Y\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{6e05ffcf56540a092455eb7d25292cd0}
+      \strng{fullhash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{fullhashraw}{974219c296fc7c814fdb04b6f463da32}
+      \strng{bibnamehash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authorbibnamehash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authornamehash}{6e05ffcf56540a092455eb7d25292cd0}
+      \strng{authorfullhash}{974219c296fc7c814fdb04b6f463da32}
+      \strng{authorfullhashraw}{974219c296fc7c814fdb04b6f463da32}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sensors}
+      \field{month}{03}
+      \field{title}{Sensor Fusion in Autonomous Vehicle with Traffic Surveillance Camera System: Detection, Localization, and AI Networking}
+      \field{volume}{23}
+      \field{year}{2023}
+      \field{pages}{3335}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.3390/s23063335
       \endverb
     \endentry
   \enddatalist
