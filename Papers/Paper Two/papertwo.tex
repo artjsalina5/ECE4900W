@@ -1,0 +1,115 @@
+%Copyright (c) 2025 arturo salinas-aguayo. All Rights Reserved.
+\documentclass[12pt]{article}
+
+% Packages
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{amsmath, amssymb, amsfonts}
+\usepackage{siunitx}
+\usepackage{array}
+\usepackage[T1]{fontenc}
+\usepackage{textcase}
+\usepackage{caption}
+\usepackage{fancyhdr}
+\usepackage{lettrine}
+\usepackage{geometry}
+\usepackage{caption}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{enumitem}
+\usepackage[backend=biber,style=ieee]{biblatex}
+\usepackage{titlesec}
+\usepackage[hidelinks]{hyperref}
+
+% Geometry and Paths
+\geometry{letterpaper, margin=1in}
+\graphicspath{{../../images/}}
+
+% Header and Footer
+\makeatletter
+\newcommand{\papertitle}{Vision Vs. LiDAR/Radar Fusion in ADS}
+
+% re-define \sectionmark so that only top-level \section updates \leftmark
+\renewcommand{\sectionmark}[1]{%
+  \markboth{\Roman{section}. #1}{}%
+}
+% Header and Footer
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[R]{\scriptsize\leftmark{} – \thepage}
+\fancyfoot[R]{\scriptsize\MakeUppercase{\papertitle}}
+\setlength{\headheight}{15pt}
+\makeatother
+
+% Bibliography
+\addbibresource{sources.bib}
+
+\titleformat{\section}
+  {\centering\large\scshape}               % shape
+  {\Roman{section}.}                        % label
+  {1em}                                     % sep
+  {}                                        % before-code
+\titlespacing*{\section}{0pt}{1.5em}{1em}
+
+\titleformat{name=\section,numberless}
+  {\centering\large\scshape}{}{1em}{}
+\titlespacing*{name=\section,numberless}{0pt}{1.5em}{1em}
+
+\titleformat{\subsection}[block]
+  {\itshape}                               % italic
+  {\Alph{subsection}.}                     % label
+  {1em}                                     % sep
+  {}                                        % before-code
+\titlespacing*{\subsection}{0pt}{1em}{0.5em}
+
+% 3) Tertiary (1), 2), …) — block, no colon
+\titleformat{\subsubsection}[block]
+  {\itshape}                          % italic shape
+  {\arabic{subsubsection})}           % label “1)”
+  {1em}                                % sep between label and title
+  {}                                   % before-code (empty)
+\titlespacing{\subsubsection}{1em}{0.75em}{0.5em}
+
+% 4) Quaternary (a), b), …) — block, no colon
+\titleformat{\paragraph}[block]
+  {\itshape}                          % italic shape
+  {\alph{paragraph})}                 % label “a)”
+  {1em}                                % sep
+  {}                                   % before-code
+\titlespacing{\paragraph}{2em}{0.75em}{0.5em}
+
+% CAPTIONS
+\captionsetup{font=footnotesize}
+\captionsetup[figure]{%
+  labelformat=simple,
+  name=Fig.,
+  labelsep=period,
+  justification=centering,
+  singlelinecheck=false
+}
+\renewcommand{\thetable}{\Roman{table}}
+\DeclareCaptionLabelFormat{dropcapsmall}{%
+  {\small T}{\footnotesize\scshape able}~#2%
+}
+\captionsetup[table]{%
+  labelformat=dropcapsmall,
+  labelsep=newline,
+  justification=centering,
+  singlelinecheck=false
+}
+% Title Page
+\title{\bfseries\LARGE Vision Vs. LiDAR/Radar Fusion in Autonomous Driving Systems}
+\author{Arturo Salinas-Aguayo}
+
+\begin{document}
+\footnote{An LLM was used strictly for formatting IAW IEEE Editorial Style Manual
+	for Authors. All thoughts, prose, and conclusions are
+my own.}
+\newpage
+\addcontentsline{toc}{section}{References}
+\nocite{*}
+\printbibliography
+
+\end{document}
+
+% vim: set ft=tex tw=80 ts=2 sts=2 sw=2 noet spell:
