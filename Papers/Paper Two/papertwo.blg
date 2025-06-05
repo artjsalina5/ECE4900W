@@ -1,18 +1,17 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'papertwo.blg'
-[62] biber-MSWIN64:340> INFO - === 
-[84] Biber.pm:420> INFO - Reading 'papertwo.bcf'
-[143] Biber.pm:991> INFO - Using all citekeys in bib section 0
-[150] Biber.pm:4463> INFO - Processing section 0
-[157] Biber.pm:4654> INFO - Looking for bibtex file 'sources.bib' for section 0
-[204] bibtex.pm:1713> INFO - LaTeX decoding ...
-[216] bibtex.pm:1519> INFO - Found BibTeX data source 'sources.bib'
-[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[255] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[255] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[255] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
-[259] bbl.pm:676> INFO - Writing 'papertwo.bbl' with encoding 'UTF-8'
-[261] bbl.pm:779> INFO - Output to papertwo.bbl
-[261] Biber.pm:131> WARN - legacy month field 'August' in entry 'williams2024ap1000' is not an integer - this will probably not sort properly.
-[261] Biber.pm:131> WARN - legacy month field 'July' in entry 'shirvan2024ap1000' is not an integer - this will probably not sort properly.
-[261] Biber.pm:133> INFO - WARNINGS: 2
+[29] biber:340> INFO - === Wed Jun  4, 2025, 22:22:39
+[36] Biber.pm:420> INFO - Reading 'papertwo.bcf'
+[60] Biber.pm:994> INFO - Found 4 citekeys in bib section 0
+[65] Biber.pm:4463> INFO - Processing section 0
+[69] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[70] bibtex.pm:1713> INFO - LaTeX decoding ...
+[73] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[94] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[94] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[94] Biber.pm:4283> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[94] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[97] bbl.pm:676> INFO - Writing 'papertwo.bbl' with encoding 'UTF-8'
+[98] bbl.pm:779> INFO - Output to papertwo.bbl
+[98] Biber.pm:131> WARN - legacy month field 'July' in entry 'shirvan2024cost' is not an integer - this will probably not sort properly.
+[98] Biber.pm:133> INFO - WARNINGS: 1

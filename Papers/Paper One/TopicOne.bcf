@@ -100,7 +100,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
@@ -116,15 +116,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -335,7 +335,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxcitenames</bcf:key>
-      <bcf:value>2</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>maxsortnames</bcf:key>
@@ -351,15 +351,15 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minbibnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>mincitenames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minsortnames</bcf:key>
-      <bcf:value>1</bcf:value>
+      <bcf:value>3</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>minitems</bcf:key>
@@ -644,6 +644,7 @@
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
     <bcf:option datatype="boolean">dashed</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -726,6 +727,7 @@
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
     <bcf:option datatype="boolean">subentry</bcf:option>
+    <bcf:option datatype="boolean">subentrycomp</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -815,6 +817,7 @@
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
     <bcf:option datatype="boolean" backendout="1">subentry</bcf:option>
+    <bcf:option datatype="boolean" backendout="1">subentrycomp</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -2370,67 +2373,15 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">sources.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">nuclear_refs.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">SAEJ3016_2021</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">petermannopto</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">2019Royo</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">petermannopto</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">RT3D</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Han2023FourDRadarSurvey</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">goff2025learningdriveworldmodel</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Esser2021TamingTransformersHighResolutionImage</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Chen2024EndToEndAD</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">drivingsim</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">vaswani2023attentionneed</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">vaswani2023attentionneed</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">drivingsim</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">goff2025learningdriveworldmodel</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">wang2024</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Haghighi2024</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Chen2024EndToEndAD</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">wang2024</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">wang2024</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">kitti</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">nuscenes</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">goff2025learningdriveworldmodel</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">wang2024</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Li2022BEVFormer</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">Zhang2023MultiSensorFusionSurvey</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">Liao2024RadarVisionFusion</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">Chen2024EndToEndAD</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Han2023FourDRadarSurvey</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">2023dreissig</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">goff2025learningdriveworldmodel</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Liao2024RadarVisionFusion</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Shetty2022LiDARvsCamera</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">Sajjad2021ComparativeDetection</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Haghighi2024</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">TeslaAutonomyDay2019</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Liao2024RadarVisionFusion</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">goff2025learningdriveworldmodel</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Hasanujjaman2023</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Zhang2023MultiSensorFusionSurvey</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Liao2024RadarVisionFusion</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Chen2024EndToEndAD</bcf:citekey>
-    <bcf:citekey order="51" intorder="2">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Rana2023PerceptionSystems</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Han2023FourDRadarSurvey</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Shetty2022LiDARvsCamera</bcf:citekey>
-    <bcf:citekey order="54" intorder="2">Sajjad2021ComparativeDetection</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">Hasanujjaman2023</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">meshkati1991human</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">rhnuclear</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">meshkati1991human</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">williams2024ap1000</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">williams2024ap1000</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">abdussami2025future</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

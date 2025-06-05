@@ -1,0 +1,22 @@
+\contentsline {section}{Abstract}{2}{Doc-Start}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Historical Lessons in Reactor Safety}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}SL-1: The First Fatal U.S. Reactor Accident}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Three Mile Island and Interface Confusion}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Chernobyl and Reactor Design Faults}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Fukushima-Daiichi: Environmental Consequences}{5}{subsection.2.4}%
+\contentsline {section}{\numberline {3}Instrumentation and Control (I\&C) Systems}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Reactor Monitoring Principles}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Feedback Control Loops}{6}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}SCRAM Systems and Negative Reactivity}{6}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Human Factors: The Ethical Dimension of Automation}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Naval Nuclear Propulsion Standards}{6}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Ethical Limits of Automation}{7}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Economic Realities and Infrastructure Decline}{7}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Vanishing Industrial Support}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Stricter Regulations, Shrinking Industry}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}The Renewable Energy Shift}{7}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Integration Challenges and Opportunities}{7}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Economic and Public Perception Shifts}{7}{subsection.6.2}%
+\contentsline {section}{\numberline {7}Reflections on the Future of Nuclear Energy}{7}{section.7}%
+\contentsline {section}{\numberline {8}Conclusion}{8}{section.8}%
