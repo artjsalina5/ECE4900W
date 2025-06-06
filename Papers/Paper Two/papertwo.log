@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.1)  4 JUN 2025 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2025.6.1)  5 JUN 2025 21:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -762,7 +762,7 @@ Package hyperref Info: Link coloring OFF on input line 96.
 \@outlinefile=\write4
 \openout4 = `papertwo.out'.
 
-<../../images//uconnlogo.png, id=92, 1027.84pt x 1027.84pt>
+<../../images//uconnlogo.png, id=112, 1027.84pt x 1027.84pt>
 File: ../../images//uconnlogo.png Graphic file (type png)
 <use ../../images//uconnlogo.png>
 Package pdftex.def Info: ../../images//uconnlogo.png  used on input line 109.
@@ -786,30 +786,35 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.118 \newpage
                [1] [2]
-<../../images//sl1diagram.jpg, id=138, 110.4125pt x 147.80219pt>
+<../../images//sl1diagram.jpg, id=163, 110.4125pt x 147.80219pt>
 File: ../../images//sl1diagram.jpg Graphic file (type jpg)
 <use ../../images//sl1diagram.jpg>
 Package pdftex.def Info: ../../images//sl1diagram.jpg  used on input line 136.
 (pdftex.def)             Requested size: 164.41711pt x 220.10599pt.
  [3 <../../images//sl1diagram.jpg>]
-<../../images//elephantsfoot.png, id=148, 623.32875pt x 422.57875pt>
+<../../images//elephantsfoot.png, id=174, 623.32875pt x 422.57875pt>
 File: ../../images//elephantsfoot.png Graphic file (type png)
 <use ../../images//elephantsfoot.png>
 Package pdftex.def Info: ../../images//elephantsfoot.png  used on input line 154.
 (pdftex.def)             Requested size: 234.8775pt x 159.23395pt.
  [4] [5 <../../images//elephantsfoot.png>]
-<../../images//instrumentation.png, id=161, 1963.335pt x 1049.9225pt>
+<../../images//instrumentation.png, id=187, 1963.335pt x 1049.9225pt>
 File: ../../images//instrumentation.png Graphic file (type png)
 <use ../../images//instrumentation.png>
 Package pdftex.def Info: ../../images//instrumentation.png  used on input line 175.
 (pdftex.def)             Requested size: 281.85587pt x 150.72092pt.
- [6 <../../images//instrumentation.png>] [7] [8]
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 227.
+ [6 <../../images//instrumentation.png>]
+Overfull \hbox (9.7722pt too wide) in paragraph at lines 209--210
+\T1/cmr/m/n/12 with-drawal [[]4[]], and AREVA's re-struc-tur-ing due to fi-nan-cial dif-fi-cul-ties from re-ac-tor projects [[]5[]]. 
+ []
+
+[7] [8]
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 241.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Overfull \hbox (18.52992pt too wide) in paragraph at lines 228--228
-[]\T1/cmr/m/n/12 M. R. Ab-dus-sami and A. Verma, ``Fu-ture en-ergy land-scapes: An-a-lyz-ing the cost-effectiveness
+Overfull \hbox (73.0399pt too wide) in paragraph at lines 242--242
+\T1/cmr/m/n/12 Amer-i-can Ac-tion Fo-rum, Tech. Rep., 2017. [On-line]. Avail-able: []$\T1/cmtt/m/n/12 https : / / www . americanactionforum .
  []
 
 
@@ -818,24 +823,24 @@ See the caption package documentation for explanation.
 
 [9] (./papertwo.aux)
 Package rerunfilecheck Info: File `papertwo.out' has not changed.
-(rerunfilecheck)             Checksum: AAA501A6BE4508095430FAF4697A4904;5010.
+(rerunfilecheck)             Checksum: ACA22A56F8EAD7B55A34A49C21FDA2C9;6205.
 Package logreq Info: Writing requests to 'papertwo.run.xml'.
 \openout1 = `papertwo.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24590 strings out of 476034
- 476324 string characters out of 5792865
- 1860388 words of memory out of 6000000
- 44708 multiletter control sequences out of 15000+600000
+ 24629 strings out of 476034
+ 477509 string characters out of 5792865
+ 1865388 words of memory out of 6000000
+ 44735 multiletter control sequences out of 15000+600000
  531188 words of font info for 79 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  73i,13n,77p,1121b,1780s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1440.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfcc1728.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0500.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on papertwo.pdf (10 pages, 2991503 bytes).
+Output written on papertwo.pdf (10 pages, 3002093 bytes).
 PDF statistics:
- 291 PDF objects out of 1000 (max. 8388607)
- 235 compressed objects within 3 object streams
- 40 named destinations out of 1000 (max. 500000)
- 197 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 345 PDF objects out of 1000 (max. 8388607)
+ 289 compressed objects within 3 object streams
+ 52 named destinations out of 1000 (max. 500000)
+ 237 words of extra memory for PDF output out of 10000 (max. 10000000)
 

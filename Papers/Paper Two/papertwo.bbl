@@ -91,6 +91,265 @@
       \verb https://doi.org/10.1177/108602669100500203
       \endverb
     \endentry
+    \entry{OECD2020}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=ea8fdd6b4504d8f57e8574aa5e61c856}{%
+           family={{OECD Nuclear Energy Agency}},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {OECD Publishing}%
+      }
+      \strng{namehash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{fullhash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{fullhashraw}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{bibnamehash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{authorbibnamehash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{authornamehash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{authorfullhash}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \strng{authorfullhashraw}{ea8fdd6b4504d8f57e8574aa5e61c856}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Nuclear Education and Training: From Concern to Capability}
+      \field{type}{techreport}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.oecd-nea.org/education/nuclear-education-training.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.oecd-nea.org/education/nuclear-education-training.pdf
+      \endverb
+    \endentry
+    \entry{Reuters2011}{online}{}{}
+      \name{author}{1}{}{%
+        {{hash=7513717dba8b208fe06799dcc54e59e2}{%
+           family={Reuters},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{fullhash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{fullhashraw}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{bibnamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorbibnamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authornamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorfullhash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorfullhashraw}{7513717dba8b208fe06799dcc54e59e2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Siemens Exits Nuclear Energy Business}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2011}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/article/us-siemens-energy-idUSTRE78H0F920110918
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/article/us-siemens-energy-idUSTRE78H0F920110918
+      \endverb
+    \endentry
+    \entry{WNISR2022}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=1201cd0e6543817afac8c0ea13532d8c}{%
+           family={Schneider},
+           familyi={S\bibinitperiod},
+           given={Mycle},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3b9aeaae03a4263732d46514e5170b3e}{%
+           family={Froggatt},
+           familyi={F\bibinitperiod},
+           given={Antony},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{fullhash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{fullhashraw}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{bibnamehash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{authorbibnamehash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{authornamehash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{authorfullhash}{5aca3d1c5015afd601459169a758d4b6}
+      \strng{authorfullhashraw}{5aca3d1c5015afd601459169a758d4b6}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World Nuclear Industry Status Report 2022}
+      \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.worldnuclearreport.org/
+      \endverb
+      \verb{url}
+      \verb https://www.worldnuclearreport.org/
+      \endverb
+    \endentry
+    \entry{IEA2020}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=b33b47b3008c8c47f90a77e0c2dd3060}{%
+           family={{International Energy Agency}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{fullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{bibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorbibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authornamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \strng{authorfullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{World Energy Investment 2020}
+      \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iea.org/reports/world-energy-investment-2020
+      \endverb
+      \verb{url}
+      \verb https://www.iea.org/reports/world-energy-investment-2020
+      \endverb
+    \endentry
+    \entry{AAFNuclearCosts}{report}{}{}
+      \name{author}{2}{}{%
+        {{hash=c58b526d8798657711dd219cf9e970aa}{%
+           family={Rossetti},
+           familyi={R\bibinitperiod},
+           given={Philip},
+           giveni={P\bibinitperiod}}}%
+        {{hash=7f11f357b8576a559919ceea01248661}{%
+           family={Loris},
+           familyi={L\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {American Action Forum}%
+      }
+      \strng{namehash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{fullhash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{fullhashraw}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{bibnamehash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{authorbibnamehash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{authornamehash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{authorfullhash}{ea73ed8cd665f0b2749bd726e50c7830}
+      \strng{authorfullhashraw}{ea73ed8cd665f0b2749bd726e50c7830}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Examining the Costs and Benefits of Nuclear Regulations}
+      \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.americanactionforum.org/research/examining-costs-benefits-nuclear-regulations/
+      \endverb
+      \verb{url}
+      \verb https://www.americanactionforum.org/research/examining-costs-benefits-nuclear-regulations/
+      \endverb
+    \endentry
+    \entry{NRCIandC}{report}{}{}
+      \name{author}{1}{}{%
+        {{hash=29c747bebb29967b1fa5125ef8b9fd8b}{%
+           family={{U.S. Nuclear Regulatory Commission}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{fullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{fullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{bibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{authorbibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{authornamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{authorfullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \strng{authorfullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Instrumentation and Control}
+      \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nrc.gov/reactors/new-reactors/design-cert/instrumentation.html
+      \endverb
+      \verb{url}
+      \verb https://www.nrc.gov/reactors/new-reactors/design-cert/instrumentation.html
+      \endverb
+    \endentry
+    \entry{MIT2020}{report}{}{}
+      \name{author}{4}{}{%
+        {{hash=906d1ab8ea382f828561cfffae9af77d}{%
+           family={Buongiorno},
+           familyi={B\bibinitperiod},
+           given={Jacopo},
+           giveni={J\bibinitperiod}}}%
+        {{hash=90b6533a782e4eb4fcc8027253ad714b}{%
+           family={Corradini},
+           familyi={C\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e8c7afb0dbc762d73acf67fabe976a31}{%
+           family={Parsons},
+           familyi={P\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=bad8f39d9545d07297f6926be44485ae}{%
+           family={Petti},
+           familyi={P\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Massachusetts Institute of Technology}%
+      }
+      \strng{namehash}{5b52302fdfa0b9b8fa6dc549aed4aa7d}
+      \strng{fullhash}{01372692986f0141bb1aec8014731674}
+      \strng{fullhashraw}{01372692986f0141bb1aec8014731674}
+      \strng{bibnamehash}{01372692986f0141bb1aec8014731674}
+      \strng{authorbibnamehash}{01372692986f0141bb1aec8014731674}
+      \strng{authornamehash}{5b52302fdfa0b9b8fa6dc549aed4aa7d}
+      \strng{authorfullhash}{01372692986f0141bb1aec8014731674}
+      \strng{authorfullhashraw}{01372692986f0141bb1aec8014731674}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The Future of Nuclear Energy in a Carbon-Constrained World}
+      \field{type}{techreport}
+      \field{urlday}{4}
+      \field{urlmonth}{6}
+      \field{urlyear}{2024}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://energy.mit.edu/research/future-nuclear-energy-carbon-constrained-world/
+      \endverb
+      \verb{url}
+      \verb https://energy.mit.edu/research/future-nuclear-energy-carbon-constrained-world/
+      \endverb
+    \endentry
     \entry{shirvan2024cost}{report}{}{}
       \name{author}{1}{}{%
         {{hash=91c2ef724570e36438cd06163625ccff}{%
@@ -111,8 +370,8 @@
       \strng{authornamehash}{91c2ef724570e36438cd06163625ccff}
       \strng{authorfullhash}{91c2ef724570e36438cd06163625ccff}
       \strng{authorfullhashraw}{91c2ef724570e36438cd06163625ccff}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{7}
@@ -143,8 +402,8 @@
       \strng{authornamehash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{authorfullhash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{authorfullhashraw}{c5ef2b630af7f10ae49a1fe55333af1e}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0306-2619}

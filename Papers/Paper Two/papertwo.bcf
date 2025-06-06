@@ -2379,8 +2379,16 @@
     <bcf:citekey order="1" intorder="1">sl1report</bcf:citekey>
     <bcf:citekey order="2" intorder="1">meshkati1991human</bcf:citekey>
     <bcf:citekey order="3" intorder="1">meshkati1991human</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">shirvan2024cost</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">abdussami2025future</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">OECD2020</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">Reuters2011</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">WNISR2022</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">WNISR2022</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">IEA2020</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">AAFNuclearCosts</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">NRCIandC</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">MIT2020</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">shirvan2024cost</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">abdussami2025future</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

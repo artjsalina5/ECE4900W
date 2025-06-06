@@ -13,10 +13,15 @@
 \contentsline {subsection}{\numberline {4.1}Naval Nuclear Propulsion Standards}{6}{subsection.4.1}%
 \contentsline {subsection}{\numberline {4.2}Ethical Limits of Automation}{7}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Economic Realities and Infrastructure Decline}{7}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Vanishing Industrial Support}{7}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Stricter Regulations, Shrinking Industry}{7}{subsection.5.2}%
-\contentsline {section}{\numberline {6}The Renewable Energy Shift}{7}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Integration Challenges and Opportunities}{7}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Economic and Public Perception Shifts}{7}{subsection.6.2}%
-\contentsline {section}{\numberline {7}Reflections on the Future of Nuclear Energy}{7}{section.7}%
-\contentsline {section}{\numberline {8}Conclusion}{8}{section.8}%
+\contentsline {subsection}{\numberline {5.1}United States}{7}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Global Trends}{7}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Migration from Nuclear to Renewable Energy Sectors}{7}{section.6}%
+\contentsline {section}{\numberline {7}Increasing Regulatory Complexity and Costs}{7}{section.7}%
+\contentsline {section}{\numberline {8}Technological Advancements in I\&C and Automation for Safety}{7}{section.8}%
+\contentsline {subsection}{\numberline {8.1}Vanishing Industrial Support}{7}{subsection.8.1}%
+\contentsline {subsection}{\numberline {8.2}Stricter Regulations, Shrinking Industry}{8}{subsection.8.2}%
+\contentsline {section}{\numberline {9}The Renewable Energy Shift}{8}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Integration Challenges and Opportunities}{8}{subsection.9.1}%
+\contentsline {subsection}{\numberline {9.2}Economic and Public Perception Shifts}{8}{subsection.9.2}%
+\contentsline {section}{\numberline {10}Reflections on the Future of Nuclear Energy}{8}{section.10}%
+\contentsline {section}{\numberline {11}Conclusion}{8}{section.11}%
