@@ -1,0 +1,21 @@
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'presentation.blg'
+[61] biber-MSWIN64:340> INFO - === 
+[84] Biber.pm:420> INFO - Reading 'presentation.bcf'
+[147] Biber.pm:991> INFO - Using all citekeys in bib section 0
+[155] Biber.pm:4463> INFO - Processing section 0
+[162] Biber.pm:4654> INFO - Looking for bibtex file 'references.bib' for section 0
+[201] bibtex.pm:1713> INFO - LaTeX decoding ...
+[220] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[306] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[306] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[306] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[306] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[323] bbl.pm:676> INFO - Writing 'presentation.bbl' with encoding 'UTF-8'
+[330] bbl.pm:779> INFO - Output to presentation.bbl
+[330] Biber.pm:131> WARN - Possible typo (case mismatch) between datasource keys: 'IEA2020' and 'iea2020' in file 'references.bib'
+[330] Biber.pm:131> WARN - Possible typo (case mismatch) between datasource keys: 'AAFNuclearCosts' and 'aafnuclearcosts' in file 'references.bib'
+[330] Biber.pm:131> WARN - legacy month field 'August' in entry 'williams2024ap1000' is not an integer - this will probably not sort properly.
+[330] Biber.pm:131> WARN - ISBN '9780465087725' in entry 'medvedev1991truth' is invalid - run biber with '--validate_datamodel' for details.
+[330] Biber.pm:131> WARN - legacy month field 'July' in entry 'shirvan2024cost' is not an integer - this will probably not sort properly.
+[330] Biber.pm:133> INFO - WARNINGS: 5

@@ -1,0 +1,106 @@
+set_pdf("presentation.pdf")
+show_slide(1)
+delay(0)
+speak("""Welcome. This presentation explores the technological, ethical, and infrastructural dimensions of nuclear power in the modern world. We will cover lessons from historic accidents, instrumentation, human-machine interface design, and current innovations. Each story reveals both vulnerability and resilience.""")
+delay(0)
+
+show_slide(2)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(3)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(4)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(5)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(6)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(7)
+delay(0)
+speak("""Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.""")
+delay(0)
+
+show_slide(8)
+delay(0)
+speak("""Nuclear energy provides unmatched energy density and emissions-free base-load power. However, public trust and sustainable deployment depend on ethical design, robust control systems, and trained human oversight. While wind and solar depend on weather and batteries, nuclear runs steadily. But one accident can erode decades of progress.""")
+delay(0)
+
+show_slide(9)
+delay(0)
+speak("""Let’s begin with an overview of reactor types, since their thermal-hydraulic behavior and control logic affect how instrumentation is designed. Each has different challenges.""")
+delay(0)
+
+show_slide(10)
+delay(0)
+speak("""This diagram shows typical sensor and actuator placements in a PWR. Note the neutron flux monitors, hot leg thermocouples, pressurizer level gauges, and scram breakers. Each of these is essential for safe operation.""")
+delay(0)
+
+show_slide(12)
+delay(0)
+speak("""SL-1 was the first fatal reactor accident in the U.S. One operator withdrew a control rod too far. With no interlocks, the reactor went prompt critical. The resulting steam explosion launched a control rod through the ceiling, killing all three operators \autocite {sl1report}.""")
+delay(0)
+
+show_slide(13)
+delay(0)
+speak("""TMI began with a stuck-open pressure relief valve. A light indicated it had closed. It hadn’t. Operators turned off coolant, thinking the core was overfilled. In truth, the core became exposed and melted \autocite {nrc_tmi_report}.""")
+delay(0)
+
+show_slide(15)
+delay(0)
+speak("""This photo shows the wreckage of Chernobyl's Reactor No.~4 just hours after the explosion. The graphite fire continued for days, spewing radiation across Europe \autocite {medvedev1991truth}.""")
+delay(0)
+
+show_slide(16)
+delay(0)
+speak("""Chernobyl's RBMK reactor had a positive void coefficient: as coolant boiled, reactivity rose. During a turbine coastdown test, this reactivity led to runaway power. A SCRAM—normally safe—made it worse, as control rods had graphite tips \autocite {iaea1992chernobyl}.""")
+delay(0)
+
+show_slide(17)
+delay(0)
+speak("""Fukushima's tsunami flooded backup generators located in basements. This loss of power—called station blackout—disabled cooling, and all three operating units melted down \autocite {iaea_fukushima_report}.""")
+delay(0)
+
+show_slide(18)
+delay(0)
+speak("""Though the reactors shutdown correctly, residual decay heat remained. Without cooling pumps, that heat caused core melt. Desperate engineers tried to wire car batteries together to read instrument panels \autocite {nrc_fukushima}.""")
+delay(0)
+
+show_slide(19)
+delay(0)
+speak("""Modern control rooms use color-coded touch screens, redundancy, and full-scope training simulators. Human factors seeks to prevent misinterpretation and stress-based mistakes.""")
+delay(0)
+
+show_slide(20)
+delay(0)
+speak("""Machines must serve—not replace—humans in nuclear operations. SCRAMs, alarms, logic interlocks: all must assume a trained operator will intervene. Ethical design means building for fallibility \autocite {mitocw_rbmkreview}.""")
+delay(0)
+
+show_slide(21)
+delay(0)
+speak("""Beyond physics, the nuclear field is strained economically. Most U.S. plants were built pre-1980. Engineering supply chains have shrunk, and no long-term spent fuel site exists \autocite {wna2023chernobyl}.""")
+delay(0)
+
+show_slide(22)
+delay(0)
+speak("""Still, there is hope. Vogtle Units 3 and 4 in Georgia marked the first new reactors in decades. SMRs and molten salt reactors promise passive safety and easier siting \autocite {worldnuclear_vogtle}.""")
+delay(0)
+
+show_slide(23)
+delay(0)
+speak("""From SL-1 to Fukushima, the lesson is clear: safe nuclear power isn't just about neutrons. It's about people, design, and ethics. The atom, when split responsibly, can still light the world.""")
+delay(0)
+
