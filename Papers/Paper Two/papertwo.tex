@@ -145,15 +145,62 @@ While technological advancements, including full-scope simulations, digital inte
 
 \section{Introduction}
 
-Nuclear power has long promised a solution to global energy needs: it offers extremely high energy density, zero direct carbon emissions, and round-the-clock base-load generation. Its technical advantages position it as a powerful complement to intermittent renewable sources such as wind and solar. Yet despite its benefits, nuclear power continues to face formidable barriers to broader adoption. These include the legacy of historical disasters, long construction timelines, intense regulatory scrutiny, and growing public skepticism fueled by decades of sociopolitical and economic turbulence.
+Nuclear power has long promised a solution to global energy needs: it offers
+extremely high energy density, zero direct carbon emissions, and round-the-clock
+base-load generation. See Figure~\ref{fig:enterprise} to be reminded of the
+atomic age, a time when nuclear power itself was on the rise, leading to nuclear
+powered carriers, frigates, destroyers, and \textit{without a doubt the best
+warships}, nuclear powered submarines.
 
-This paper synthesizes technical insights from nuclear operations, particularly in the context of naval propulsion reactors, with academic research on instrumentation, control, and human systems integration. It explores how the evolution of digital I\&C systems has transformed modern plant safety while also introducing new vulnerabilities, particularly in terms of human-computer interaction. By revisiting major nuclear incidents and analyzing their root causes, this work highlights the ethical and operational boundaries of automation, the critical importance of experienced operators, and the design decisions that shape how human errors propagate—or are prevented.
+Its technical advantages position it as a powerful complement to intermittent renewable sources such as wind and solar. Yet despite its benefits, nuclear power continues to face formidable barriers to broader adoption. These include the legacy of historical disasters, long construction timelines, intense regulatory scrutiny, and growing public skepticism fueled by decades of sociopolitical and economic turbulence.
 
-Ultimately, this paper contends that the future of nuclear power depends not only on engineering excellence, but also on institutional resilience. While new technologies like SMRs and passive safety designs represent significant progress, they must be accompanied by policy reform, renewed investment in nuclear education and infrastructure, and a cultural shift toward sustainable, ethically grounded energy stewardship.
+This paper synthesizes technical insights from nuclear operations, particularly in the context of naval propulsion reactors, with academic research on instrumentation, control, and human systems integration. It explores how the evolution of digital I\&C systems has transformed modern plant safety while also introducing new vulnerabilities, particularly in terms of human-computer interaction.
 
-\section{Instrumentation and Control (I\&C) Systems}
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.7\textwidth]{enterprise}
+	\caption{The crew of the USS Enterprise spell out $E = mc^2$ as she sets sail
+around the world with similarly nuclear powered USS Long Beach and USS
+Bainbridge on Operation Sea Orbit, 31 July, 1964 (There are also 3 submarines in
+this picture.)}
+\label{fig:enterprise}
+\end{figure}
 
-\subsection{Types of Plants}
+\section{Technology Description}
+\subsection{Instrumentation and Control (I\&C) Systems}
+
+The ability to control a nuclear reaction ultimately \textit{boils down} to managing the energy released from an unstable element that, once stimulated, emits both fast and slow neutrons. These neutrons go on to strike other fissile atoms, triggering further emissions in a self-sustaining chain reaction. This process takes place within fuel elements—long metal-clad rods arranged in a structure called a fuel subassembly, often resembling a metallic honeycomb. Multiple subassemblies are grouped into fuel assemblies, with careful placement to balance the resulting heat flux from neutron collisions. As neutrons scatter and interact, they excite more fuel atoms in a cascading effect reminiscent of a Fourth of July fireworks finale.
+
+A simplified chemical representation of the process is the fission of uranium-235:
+
+\begin{equation}
+  ^{235}\text{U} + ^{1}\text{n} \rightarrow ^{92}\text{Kr} + ^{141}\text{Ba} +
+	\text{\textbf{3}}^{1}\text{n} + \text{Energy}~(\approx 200~\text{MeV})
+\end{equation}
+
+\noindent where:
+\begin{itemize}
+  \item $^{235}\text{U}$ is a fissile uranium-235 nucleus,
+  \item $^{1}\text{n}$ is an incoming thermal neutron,
+  \item $^{92}\text{Kr}$ and $^{141}\text{Ba}$ are fission products,
+  \item $3^{1}\text{n}$ represents the emission of three additional neutrons,
+  \item The energy released is approximately 200~MeV, primarily as kinetic energy of the fission fragments and secondary neutrons.
+\end{itemize}
+
+These additional neutrons can go on to initiate further fission reactions, forming the basis of a self-sustaining chain reaction. The ability to keep this chain reaction in balance—neither accelerating nor dying out—is at the heart of nuclear reactor control.
+
+The danger, however, lies in the potential for this excitation to grow out of control. The extent to which the system is primed for further reaction is measured as \textit{reactivity}, defined approximately as:
+
+\begin{equation}
+  \rho = \frac{k_{\text{eff}} - 1}{k_{\text{eff}}}
+\end{equation}
+where $\rho$ is the reactivity (dimensionless), $k_{\text{eff}}$ is the effective neutron multiplication factor and will increase in power unless corrective action is taken.
+
+Advanced instrumentation and control (I\&C) systems are designed to maintain this reactivity within safe limits—keeping the metaphorical fireworks display safely choreographed in the sky rather than detonating all at once in a catastrophic burst at ground level.
+
+To understand why these systems have evolved into such complex and nuanced architectures, it’s helpful to explore the different reactor design types. Over the decades, engineers have developed multiple ways to control reactivity and convert the energy from a “hot rock” into mechanical power—whether to propel submarines, generate electricity, or, in darker moments of history, to build devastating weapons.
+
+\subsubsection*{Types of Plants}
 
 Nuclear power plants can be classified by several characteristics, the most common being the type of coolant used to extract thermal energy from the reactor core. Table~\ref{tab:planttypes} categorizes four typical designs. Each has unique thermodynamic cycles and control architectures that dictate the required instrumentation, logic systems, and safety interlocks.
 
@@ -175,7 +222,7 @@ Nuclear power plants can be classified by several characteristics, the most comm
 
 While this paper emphasizes PWR and BWR systems—depicted in Figures~\ref{fig:coreinstrumentation} and \ref{fig:bwrinstrumentation}—reactors can also be categorized by neutron energy spectrum (thermal, intermediate, fast), fuel configuration (homogeneous or heterogeneous), purpose (research, power, breeding, or plutonium production), and net fissile yield (breeder vs.\ converter) \cite{ichandbook}.
 
-\subsection{Reactor Monitoring Principles}
+\subsubsection*{Reactor Monitoring Principles}
 
 Instrumentation systems in nuclear power plants are designed to provide real-time, high-fidelity data on the most critical plant variables—particularly those affecting core reactivity, heat transfer, and plant integrity. These systems rely on a combination of neutron radiation sensors and thermal sensors, with sensor placement tailored to reactor type, as shown in Figures~\ref{fig:coreinstrumentation} and \ref{fig:bwrinstrumentation}.
 
@@ -193,11 +240,11 @@ Instrumentation systems in nuclear power plants are designed to provide real-tim
   \label{fig:bwrinstrumentation}
 \end{figure}
 
-\subsubsection{Thermal and Neutron Sensing.}
+\subsubsection*{Thermal and Neutron Sensing.}
 Sensors for nuclear plant monitoring fall broadly into two categories: thermal sensors and nuclear-radiation sensors \cite{ichandbook}. Thermocouples and resistance temperature detectors (RTDs) monitor coolant temperatures and structural heat loads, while neutron sensors directly measure fission activity. Because neutrons are uniquely tied to the fission process, neutron flux detectors are essential for monitoring power distribution, total fission rate, and the rate of change of reactor power.
 
-\subsubsection{Coolant and Moderator Instrumentation.}
-Coolant system monitoring includes the following key measurements \cite{ichandbook}:
+\subsubsection*{Coolant and Moderator Instrumentation.}
+Effective thermal management is essential to maintaining reactor integrity. The coolant serves as the medium for heat removal from the fuel, while the moderator governs neutron energy and thus reactivity. Continuous monitoring of coolant and moderator parameters ensures that the reactor operates within safe thermal limits and that reactivity remains controlled. Key measurements include \autocite{ichandbook}:
 \begin{itemize}
   \item Coolant inlet and outlet temperatures (to track heat extraction).
   \item Flow rate into and out of the reactor ($F_c$), as well as through various coolant channels.
@@ -205,33 +252,33 @@ Coolant system monitoring includes the following key measurements \cite{ichandbo
   \item Purity of coolant and its radioactivity, especially post-core.
   \item Moisture content (for gas-cooled systems), which may influence reactivity and heat transfer.
 \end{itemize}
-These measurements require temperature sensors, flowmeters, pressure transducers, gamma sensors, and humidity detectors. In light water reactors, precise detection of subcooled margin, void fraction, and departure from nucleate boiling (DNB) are paramount.
+These measurements require temperature sensors, flowmeters, pressure transducers, gamma sensors, and humidity detectors. In light water reactors, precise detection of subcooled margin, void fraction, and departure from nucleate boiling (DNB) is paramount to prevent fuel damage and ensure efficient heat transfer.
 
-\subsubsection{Control and Structural Monitoring.}
-In addition to thermal-hydraulic measurements, plant instrumentation also tracks key operational parameters:
+\subsubsection*{Control and Structural Monitoring.}
+To maintain criticality and prevent excursions, the physical state of reactor components must be known at all times. This includes not only the position of reactivity control elements like control rods, but also the condition of structural moderators and pressure boundaries. Accurate readings in this domain allow for dynamic reactivity management, prompt detection of abnormal trends, and safe system operation:
 \begin{itemize}
   \item Position of control rods ($L^*$), crucial for reactivity control.
   \item Moderator and reactor water levels ($L_m$, $L_r$).
   \item Moderator temperature ($T_m$), especially in systems like CANDU reactors.
   \item Primary system pressure ($P_p$) and coolant outlet pressure ($P_o$).
 \end{itemize}
-Sensors used include linear variable differential transformers (LVDTs), water-level probes, and high-accuracy pressure transducers.
+These parameters are sensed via linear variable differential transformers (LVDTs), water-level probes, and high-accuracy pressure transducers. Their outputs are often fed into automated feedback loops and supervisory control systems.
 
-\subsubsection{Steam and Turbine System Sensing.}
-Beyond the reactor itself, I\&C systems must track parameters in the secondary loop and balance-of-plant systems. These include:
+\subsubsection*{Steam and Turbine System Sensing.}
+Instrumentation extends beyond the core into the balance-of-plant systems where thermal energy is converted into mechanical and electrical power. Monitoring the secondary loop ensures safe and efficient energy extraction, minimizes mechanical wear, and protects the grid interface. Key measurements include:
 \begin{itemize}
   \item Steam flow rate ($F_s$), steam quality, and pressure ($P_g$).
   \item Feedwater flow ($F_f$) and drum level (in BWRs).
   \item Turbine rotational speed, generator output power, and pump motor performance.
 \end{itemize}
-Such measurements use tachometers, electrical metering, differential pressure sensors, and dynamic vibration monitors, ensuring not only safe reactor operation but also efficient energy conversion and grid stability.
+These measurements are collected using tachometers, electrical metering, differential pressure sensors, and dynamic vibration monitors. They are vital for maintaining power stability, avoiding turbine overspeed or cavitation, and ensuring that thermal energy is extracted as efficiently and safely as possible.
 
-\subsubsection{Integration with Digital Systems.}
+\subsection{Automatic Protection}
 The increasing integration of digital logic enables centralized monitoring of these diverse parameters using high-speed buses and distributed control systems (DCS). Such systems can perform real-time diagnostics, apply fail-safe logic, and enhance overall plant safety and responsiveness.
 
 These layered instrumentation systems—distributed across reactor, coolant, and steam systems—are designed to uphold the three core principles of nuclear safety: maintain reactivity control, ensure heat removal, and prevent release of radioactive materials. The careful selection and redundancy of sensors make them foundational to modern nuclear plant reliability.
 
-\subsection{Computerized Protection Systems}
+\subsubsection*{Computerized Protection Systems}
 \label{sec:protection}
 
 The progression toward digital protection systems has paralleled improvements in reactor safety and reliability. Engineered safety features (ESFs) are now fully integrated with digital I\&C, simplifying operational logic through pre-programmed safety interlocks. These include automated trip logic and permissives designed to act faster than human operators during transient conditions \cite{moderninstruments}.
@@ -257,10 +304,16 @@ Figure~\ref{fig:flowlogic} shows a representative logic diagram for a U.S.-based
 Critically, such systems are not intended for routine plant operation. Instead, their design assumes operator control remains primary and that automated systems intervene only during design-basis accidents or unanticipated transients. For example, while a pressurizer may tolerate pressures from \SI{1500}{psig} to \SI{2500}{psig}, licensed operators will typically maintain nominal pressure near \SI{2250}{psig}\footnote{These numbers are shown purely for example and not based on existing plant design.} to ensure that automatic systems are not actuated unless multiple control layers fail.
 
 Ultimately, these protection systems provide defense-in-depth and are structured around the core nuclear safety principles: control of reactivity, heat removal, and containment of radioactive materials. The move to digital logic enhances responsiveness but demands rigorous validation, fail-safe architectures, and operator situational awareness to maintain overall plant safety.
-\section{Historical Lessons in Reactor Safety}
+
+\section{Broader Impacts}
+To understand the foundation of modern nuclear safety, it is essential to examine key historical nuclear accidents. These events, extensively studied both in naval reactor training and across the commercial nuclear sector, highlight the serious risks inherent to nuclear technology when safety systems fail. The lessons drawn from these incidents have directly influenced the development of today’s robust safety frameworks.
+
+Following this overview, the section explores the broader environmental, economic, and societal consequences of these accidents. It discusses how public perception and regulatory response have shaped the trajectory of nuclear power over recent decades, contributing to its slowed adoption despite technological advancements.
+
+\subsection{Historical Lessons in Reactor Safety}
 \label{sec:accidents}
 
-\subsection{SL-1: The First Fatal U.S. Reactor Accident}
+\subsubsection*{SL-1: The First Fatal U.S. Reactor Accident}
 
 On January 3, 1961, the Army’s Stationary Low-Power Reactor Number One (SL-1) experienced the first fatal nuclear accident in U.S. history. During routine maintenance, the manual withdrawal of a control rod made the small test reactor prompt critical, leading to a steam explosion that destroyed the core and killed all three personnel on duty \autocite{sl1report}. Figure~\ref{fig:sl1diagram} shows the post-incident state of the reactor vessel.
 
@@ -271,38 +324,26 @@ On January 3, 1961, the Army’s Stationary Low-Power Reactor Number One (SL-1) 
     \label{fig:sl1diagram}
 \end{figure}
 
-\subsubsection{Sequence of Events}
-
-Local firefighters arrived in response to a fire alarm and found the facility abandoned. Coffee cups remained warm, and food was left uneaten. As radiation alarms activated on their dosimetry equipment, they realized a serious radiological event had occurred. Two operators were located dead from radiation exposure. The third, Richard Legg, was discovered impaled and pinned to the containment ceiling by a control rod—ejected upward during the reactor’s prompt critical event.
-
-\subsubsection{Root Cause Analysis}
-
 SL-1 used top-mounted control rods for reactivity control, which were manually withdrawn during maintenance procedures. Operators had previously documented that rods frequently stuck due to thermal expansion of the drive mechanisms. It became common to exert above-normal force during removal. On the night of the accident, the center control rod—the most reactivity-dominant—was pulled upward over 50 centimeters in a single motion, far beyond the safe insertion limit. The resulting reactivity spike caused a runaway chain reaction and a destructive power surge in under 4 milliseconds \autocite{sl1report}.
 
-\subsubsection{Engineering and Human Factors Implications}
+Despite repeated reports of sticking rods, the system lacked mechanical or
+procedural interlocks to prevent rapid withdrawal. A single operator retained
+full manual control, with no redundancy or supervisory lockouts. The SL-1 event
+shows the critical role of human factors engineering, particularly in minimizing
+design interfaces (IE maintenance procedures) that allow unsafe manual operations.
 
-Despite repeated reports of sticking rods, the system lacked mechanical or procedural interlocks to prevent rapid withdrawal. A single operator retained full manual control, with no redundancy or supervisory lockouts. The SL-1 event shows the critical role of human factors engineering, particularly in minimizing design interfaces that allow unsafe manual operations.
-
-\subsubsection{Aftermath and Lessons Learned}
-
-The accident ended the U.S. Army’s independent nuclear program and reshaped reactor safety policy. Key engineering and operational reforms included:
-\begin{itemize}
-  \item Mandatory interlock systems for reactivity-affecting maintenance tasks.
-  \item Human-machine interface redesign to reduce physical leverage on control rods.
-  \item Enhanced operator training in recognizing mechanical anomalies and enforcing procedural compliance.
-  \item Systematic feedback integration from preventative maintenance logs into safety reviews.
-\end{itemize}
-
-SL-1 is now a foundational case in nuclear safety education, cited for both its engineering oversights and its tragic human cost. The accident remains a clear demonstration of how well-known mechanical issues—if left unresolved—can lead to fatal outcomes even in small-scale, research-focused facilities \autocite{sl1report}.
-
-\subsection{Three Mile Island: Interface Confusion and Human Factors}
+\subsubsection*{Three Mile Island: Interface Confusion and Human Factors}
 The Three Mile Island Unit 2 (TMI-2) accident occurred on March 28, 1979, near Harrisburg, Pennsylvania, and remains the most serious commercial nuclear accident in the United States. It was precipitated by the failure of a pressure-operated relief valve (PORV) that became stuck open during a minor malfunction. The valve allowed coolant to escape from the pressurizer, but due to inadequate instrumentation, operators believed it had closed properly \autocite{tmiwalker}.
 
-\subsubsection{Sequence of Events}
-The event began with a relatively minor mechanical issue: a malfunction in the secondary cooling system caused the reactor to automatically shut down. In response, the PORV opened to relieve pressure but failed to reseat. As coolant escaped from the system, the core began to overheat. However, operators—faced with a cascade of alarms and ambiguous signals—misinterpreted the problem. Believing the system to be overpressurized, they manually shut off the emergency core cooling system (ECCS), thereby worsening the core heat-up. This operator action, based on incomplete and confusing data, allowed the core to partially melt.
-
-\subsubsection{Design Oversights and Interface Failures}
-Although the specific model of relief valve had a history of sticking open at other nuclear facilities, including ones that caught the issue during routine maintenance, this design vulnerability remained unaddressed in TMI-2. The larger problem, however, lay in the information architecture available to operators. The control room flooded with alarms—many irrelevant or contradictory—led to cognitive overload. As seen in Figure~\ref{fig:tmicontrolroom}, the control interface lacked a clear indication of the PORV status. Nowadays, a temperature sensor is typically placed downstream of all pressure relief valves to indicate the actuation of the system, with a clear, dedicated alarm for each one.
+The event began with a relatively minor mechanical issue: a malfunction in the
+secondary cooling system caused the reactor to automatically shut down. In
+response, the PORV opened to relieve pressure but failed to reseat. As coolant
+escaped from the system, the core began to overheat. However, operators—faced
+with a cascade of alarms and ambiguous signals—misinterpreted the problem.
+Believing the system to be overpressurized, they manually shut off the emergency
+core cooling system (ECCS), thereby worsening the core heat-up. This operator
+action, based on incomplete and confusing data, allowed the core to partially
+melt. The confusing control room can be seen in Figure~\ref{fig:tmicontrolroom}.
 
 \begin{figure}[H]
   \centering
@@ -311,30 +352,25 @@ Although the specific model of relief valve had a history of sticking open at ot
   \label{fig:tmicontrolroom}
 \end{figure}
 
-\subsubsection{Human Factors and System Complexity}
 Prior to this event, the relationship between human performance and system design was underappreciated in reactor control engineering. It was often assumed that proper training and “common sense” would be sufficient for managing system faults. However, the TMI-2 accident highlighted that even well-trained operators can make catastrophic errors when systems are not designed to support human cognition under stress.
 
-As a result of this accident, the field of human factors engineering gained legitimacy within the nuclear industry. Organizational and industrial psychology—especially the study of ergonomics and operator-centered design—emerged as crucial disciplines in instrumentation and control system development \autocite{meshkati1991human}. Operators needed interfaces not merely for function, but for situational awareness and decision-making under pressure. This marked a turning point in control room design philosophies, ushering in era-defining updates to alarm management, display hierarchy, and interface logic \autocite{moderninstruments}.
+As a result of this accident, the field of human factors engineering gained
+legitimacy within the nuclear industry. Organizational and industrial
+psychology—especially the study of ergonomics and operator-centered
+design—emerged as crucial disciplines in instrumentation and control system
+development \autocite{meshkati1991human}. Operators needed interfaces not merely
+for function, but for situational awareness and decision-making under pressure.
+This marked a turning point in control room design philosophies, ushering in
+era-defining updates to alarm management, display hierarchy, and interface logic
+\autocite{moderninstruments}. This will be explored thoroughly in
+Section~\ref{sec:humanfactors}
 
-\subsubsection{Legacy and Regulatory Reform}
-The Nuclear Regulatory Commission (NRC) and the Institute of Nuclear Power Operations (INPO) were restructured in the aftermath to emphasize operator performance, training, and usability engineering. New protocols required validation of human-system interfaces (HSIs), and updated control room standards began to emphasize clarity, prioritization of alarms, and the inclusion of status indicators that leave less to inference.
+\subsubsection*{Chernobyl and Reactor Design Faults}
 
-The TMI-2 incident stands as a foundational example in nuclear operations of how accidents may not arise solely from equipment failure, but from the interactions between human minds and poorly designed systems.
-
-\subsection{Chernobyl and Reactor Design Faults}
-
-\subsubsection{Background and Test Scenario}
 The catastrophic accident at Chernobyl's Reactor No.~4 occurred on April 26, 1986, during a late-night safety test. The test intended to verify whether the rotational inertia of the turbine could temporarily power the emergency coolant pumps in the event of a grid power failure \autocite{wna2023chernobyl}. The RBMK-1000 reactor involved was a Soviet-designed graphite-moderated, water-cooled system—flawed by both design and execution \autocite{iaea1992chernobyl, nrc_chernobyl}.
 
-\subsubsection{Design Flaws and Positive Feedback}
-A defining flaw of the RBMK design was its \textit{positive void coefficient}, which meant that a reduction in coolant (forming steam voids) actually increased the nuclear reaction rate. This characteristic starkly contrasts with most Western designs, where coolant voids introduce negative reactivity and suppress power output \autocite{mitocw_rbmkreview}.
-
-During the test, a buildup of xenon-135 (a neutron absorber) had suppressed reactor power. Operators, under pressure and facing decaying xenon levels, withdrew control rods to maintain minimum power. When reactivity returned, they initiated a SCRAM, inserting all control rods.
-
-\subsubsection{SCRAM-Induced Prompt Criticality}
 Ordinarily, a SCRAM should halt a reaction. However, the RBMK rods featured graphite tips that displaced neutron-absorbing water before inserting the boron carbide absorber sections. This caused a momentary \textit{increase} in reactivity in the lower portion of the core, leading to a rapid, uncontrollable rise in power. The reactor reached a prompt critical state within seconds \autocite{iaea1992chernobyl}.
 
-\subsubsection{Core Destruction and Radiation Release}
 The core overheated instantly, rupturing fuel channels and vaporizing coolant. A violent steam explosion lifted the reactor’s 2,000-ton upper biological shield. A second explosion—possibly from hydrogen or steam—further breached the structure and exposed the graphite moderator, which caught fire. Figure~\ref{fig:chernobylafter} shows the aftermath of the explosion mere hours after the explosion. The fire lofted radioactive particles into the upper atmosphere, affecting much of Europe \autocite{nrc_chernobyl}.
 
 \begin{figure}[H]
@@ -344,11 +380,7 @@ The core overheated instantly, rupturing fuel channels and vaporizing coolant. A
   \label{fig:chernobylafter}
 \end{figure}
 
-\subsubsection{Operator Training and System Transparency}
-Many plant workers had no clear understanding of the RBMK reactor's inherent instability. Critical safety data were often classified or minimized due to Cold War secrecy. The Soviet nuclear industry prioritized production of military-grade plutonium over safety, compounding operator vulnerability \autocite{medvedev1991truth}.
-
-\subsubsection{Aftermath and Human Toll}
-First responders—mostly firefighters and plant workers—entered the facility without radiation protection. Within weeks, dozens died from acute radiation syndrome. Long-term effects include increases in thyroid cancer and widespread environmental contamination. Despite this, many local engineers and volunteers heroically fought to limit the spread of damage.
+The aftermath of Chernobyl catalyzed global reevaluation of nuclear safety, reactor design, and operator training. The international community pushed for increased transparency, safety audits, and enhanced containment strategies. The photograph in Figure~\ref{fig:elephantsfoot} famously shows the “Elephant’s Foot,” a deadly corium formation. The strange visual static in the image is not lightning, but film degradation from intense radiation—testament to the unprecedented radioactive environment at the site.
 
 \begin{figure}[H]
   \centering
@@ -357,15 +389,16 @@ First responders—mostly firefighters and plant workers—entered the facility 
   \label{fig:elephantsfoot}
 \end{figure}
 
-\subsubsection{Legacy of Chernobyl}
-The aftermath of Chernobyl catalyzed global reevaluation of nuclear safety, reactor design, and operator training. The international community pushed for increased transparency, safety audits, and enhanced containment strategies. The photograph in Figure~\ref{fig:elephantsfoot} famously shows the “Elephant’s Foot,” a deadly corium formation. The strange visual static in the image is not lightning, but film degradation from intense radiation—testament to the unprecedented radioactive environment at the site.
+The disaster marked a permanent shift in public perception of nuclear energy,
+influencing decades of policy and triggering a global slowdown in nuclear
+development. This politically changed the entire world's perception of the
+potential for ``Safe Nuclear Power" and will be discussed in
+Section~\ref{sec:infrastructure}.
 
-The disaster marked a permanent shift in public perception of nuclear energy, influencing decades of policy and triggering a global slowdown in nuclear development.
 
-\subsection{Fukushima-Daiichi: Environmental Consequences}
+\subsubsection*{Fukushima-Daiichi: Environmental Consequences}
 
-\subsubsection{Earthquake and Tsunami Impact}
-On March 11, 2011, a magnitude 9.0 undersea megathrust earthquake struck off the northeastern coast of Honshu, Japan, triggering a tsunami with wave heights exceeding 14 meters. The Fukushima-Daiichi Nuclear Power Station, operated by TEPCO, was critically affected. Although the three operating reactors—Units 1, 2, and 3—successfully SCRAMed (shut down automatically), the tsunami flooded the site and disabled both the offsite grid connections and emergency diesel generators \autocite{iaea_fukushima_report}. This unprecedented loss of power across all units is illustrated in Figure~\ref{fig:containments}, which shows the reactor buildings after successive hydrogen explosions.
+On March 11, 2011, a magnitude 9.0 undersea megathrust earthquake struck off the northeastern coast of Honshu, Japan, triggering a tsunami with wave heights exceeding 14 meters. The Fukushima-Daiichi Nuclear Power Station, operated by TEPCO, was critically affected. Although the three operating reactors—Units 1, 2, and 3—successfully SCRAMed, the tsunami flooded the site and disabled both the offsite grid connections and emergency diesel generators \autocite{iaea_fukushima_report}. This unprecedented loss of power across all units is illustrated in Figure~\ref{fig:containments}, which shows the reactor buildings after successive hydrogen explosions.
 
 \begin{figure}[H]
   \centering
@@ -374,51 +407,40 @@ On March 11, 2011, a magnitude 9.0 undersea megathrust earthquake struck off the
   \label{fig:containments}
 \end{figure}
 
-\subsubsection{Station Blackout and Core Meltdown}
 Following shutdown, nuclear reactors continue to emit decay heat, which can exceed several percent of nominal thermal power in the hours after fission halts. This residual heat must be actively removed to avoid core damage. At Fukushima, all cooling systems failed due to the flooding of diesel generators and electrical switchgear—many of which were located in basements vulnerable to tsunami inundation \autocite{nrc_fukushima}. This left the plant in a condition known in the nuclear industry as \textit{dead electric}, where no AC or DC power is available to operate pumps, valves, or even basic monitoring systems.
 
-\subsubsection{Loss of Monitoring and Improvised Measures}
 Operators at Fukushima recognized the danger but were rendered effectively blind by the loss of power. Unlike U.S. Navy reactor systems—where portable test equipment such as Fluke digital multimeters can be attached to terminals for passive thermocouple readings—the Fukushima design lacked redundant manual monitoring options. In a desperate act of ingenuity, personnel retrieved car batteries from nearby vehicles and wired them in series to restore minimal voltage to power essential instrumentation. Unfortunately, by the time this improvised power source was implemented, core damage in Units 1, 2, and 3 was already underway, with partial or full meltdown confirmed in post-event analyses \autocite{worldnuclear_fukushima_review}.
 
-\subsubsection{Environmental and Human Consequences}
-While the total release of radioactive material was less than that of Chernobyl, Fukushima's dual-trigger origin—a natural disaster followed by technological failure—had extensive consequences. Hydrogen explosions damaged reactor buildings, and emergency cooling water—now contaminated—leaked into the Pacific Ocean. Airborne dispersion of iodine-131 and cesium-137 prompted mass evacuations and long-term exclusion zones. The disaster left Japan facing not only technical containment challenges, but also long-lasting psychological, economic, and political fallout.
-
-\subsubsection{U.S. Naval Involvement and Humanitarian Support}
-As news of the crisis reached the global community, international responses were swift. Aboard the aircraft carrier \textit{USS Ronald Reagan} (CVN-76), routine Air Particulate Detector readings spiked during transit toward Japan. Recognizing the gravity of the situation, the commanding officer ordered the ship to provide humanitarian aid. The Reagan positioned itself offshore and used its dual nuclear reactors to reverse-feed electrical power into Japan's devastated grid infrastructure, offering vital support during the early days of recovery and relief.
-
-This cooperative effort emphasized the unique role nuclear-powered vessels can play in civilian emergency response—an often-overlooked advantage of maritime nuclear propulsion.
-
-\section{Human Factors: The Ethical Dimension of Automation}
+\subsection{Human Factors: The Ethical Dimension of Automation}
 \label{sec:humanfactors}
 
 The role of trained human operators in the safe and reliable generation of nuclear power cannot be overstated. Despite vast improvements in automation, instrumentation, and control systems, the nuclear accidents at SL-1, Three Mile Island, Chernobyl, and Fukushima-Daiichi demonstrate that the human element remains indispensable. These incidents demonstrate the importance of sound judgment, situational awareness, and expert intervention when systems fail or behave unpredictably \autocite{moderninstruments}.
 
-\subsection{Human Factors Engineering}
-
 \textit{Human factors engineering} (HFE) is the systematic application of knowledge about human capabilities, limitations, behaviors, and interactions to the design of systems, equipment, and tasks. In the nuclear industry, HFE plays a vital role in ensuring that complex control systems support rather than hinder operator performance—especially in high-pressure situations.
-
-As nuclear plants have grown in complexity and power output, the design of control rooms has evolved to integrate ergonomic layouts, intuitive interface systems, and simulation-based training environments. This progression aims to reduce human error and improve decision-making reliability \autocite{moderninstruments}.
-
-International standards like IEC 964 and IEC 60964 provide guidelines for human-system integration in nuclear control systems \autocite{iec60964, iec964}. These standards emphasize:
-
-\begin{itemize}
-  \item Alignment between power production and safety objectives.
-  \item Proper allocation of tasks between manual and automatic controls.
-  \item Application of human performance data, including anthropometrics, cognitive psychology, and reliability analysis.
-\end{itemize}
 
 Key elements of human factors integration include the reliable \textit{presentation of information}, \textit{uniform control design}, well-thought-out \textit{panel and display layouts}, and procedural integration via \textit{full-scope simulators} that replicate real plant conditions \autocite{iec60964, iec964}.
 
-\subsection{Operator Experience}
-
+\subsubsection*{Operator Experience}
 While engineering design establishes operational parameters, it is the operator who understands the plant in real time. Experienced operators know how the system responds to subtle inputs—such as a one-second control rod shim or a \SI{10}{psig} fluctuation in secondary steam pressure. Similarly, machinery room technicians can predict how valve sequencing will affect temperature, flow, or turbine response.
 
-In early prototype plants, small reactor cores were operated at constant loads by teams of scientists and engineers pushing the limits of atomic knowledge \autocite{moderninstruments}. As commercial nuclear power scaled up, these systems became vastly more complex, and measurement accuracy and control precision grew increasingly important.
+In early prototype plants, small reactor cores were operated at constant loads
+by teams of scientists and engineers pushing the limits of atomic knowledge
+\autocite{moderninstruments}. As commercial nuclear power scaled up, these
+systems became vastly more complex, and measurement accuracy and control
+precision grew increasingly important. Figure~\ref{fig:maneuvering} shows
+experienced operators aboard an S5W-era submarine in a shutdown configuration.
+\begin{figure}[H]
+	\centering
+	\includegraphics{maneuvering-watch.jpg}
+	\caption{The small cramped room in a nuclear submarine named maneuvering, in
+	the front is the Shutdown Reactor Operator, and to his right is the Electrical
+Operator.}
+	\label{fig:maneuvering}
+\end{figure}
 
 Modern operators are trained not only on procedural execution but also on pattern recognition, anomaly detection, and adaptive response. Their insights cannot be easily modeled or coded into automation algorithms, especially under degraded conditions or unforeseen emergencies.
 
-\subsection{Ethical Limits of Automation}
-
+\subsubsection*{The Danger in Automation}
 While automation has dramatically improved reactor safety, it must be implemented with caution. In certain crisis scenarios, reliance on preprogrammed logic or incomplete models may lead to incorrect or delayed actions. Ethical considerations demand that humans remain at the center of safety-critical decisions, particularly when outcomes involve lives or large-scale environmental consequences.
 
 One well-documented challenge in cognitive psychology is the \textit{tunnel effect}, in which humans persist with an initial, incorrect interpretation of a situation, especially under stress \autocite{moderninstruments}. This phenomenon is exacerbated when control system layouts are unintuitive or overwhelming. Retrofitting advanced instrumentation without corresponding operator retraining can invalidate experience and increase error likelihood.
@@ -442,7 +464,9 @@ The optimal nuclear power plant integrates advanced control systems with a highl
   \caption{The optimal balance between automation and human factors in nuclear power generation \autocite{moderninstruments}.}
   \label{fig:optimalautomation}
 \end{figure}
-\section{Economic Realities and Infrastructure Decline}
+
+\subsection{Economic Realities and Infrastructure Decline}
+\label{sec:infrastructure}
 
 Due to the high-profile mishaps discussed in Section~\ref{sec:accidents}, the nuclear industry has suffered a significant loss of public trust. This erosion of confidence has contributed to financial uncertainty, stalled development, and a decline in domestic infrastructure to support new reactor construction. The resulting industrial contraction has drawn comparisons to the decline of the coal rail economy—once supported by a network of coal suppliers and rail hubs across the United States. As investment and skilled labor shift toward renewable energy, nuclear power is increasingly seen as an economically fragile legacy technology.
 
@@ -453,19 +477,12 @@ A commercial nuclear reactor undergoes refueling approximately every 18 to 24 mo
 
 The U.S. currently stores most of its spent fuel onsite in dry cask storage, as it lacks a permanent geologic repository. The proposed Yucca Mountain site in Nevada was halted due to political opposition, leaving a critical infrastructure gap \autocite{doe2020}. Meanwhile, the Department of Energy (DOE) estimates that total long-term waste management liabilities—including storage, monitoring, and decommissioning—could exceed \$500 billion over the next century \autocite{doe2020}. Several private firms that formerly handled nuclear logistics and fuel services have transitioned into renewable technologies or left the sector entirely, further weakening the industry’s support structure.
 
-\subsection{Construction and Design of Future Plants}
-
+\subsection{Construction and Design of Future Plants: The Societal Impact}
 The capability to construct new nuclear facilities has also diminished. The completion of Vogtle Unit~4 in Georgia—one of the first new U.S. reactors in decades—offered a glimmer of progress, but also exposed the harsh economic and logistical realities of modern nuclear construction. The project faced a decade of delays and billions in cost overruns, driven by labor shortages, supply chain gaps, and regulatory hurdles \autocite{aafnuclearcosts}.
 
 Domestic capacity to manufacture nuclear-grade components, such as reactor pressure vessels or reactor coolant pumps, has eroded. Only a few specialized forges worldwide are still capable of producing these massive components to the necessary ASME and NRC specifications. Simultaneously, industrial firms that once supported nuclear projects have shifted their operations toward building wind turbine towers, solar inverters, and battery storage systems. The opportunity cost of investing in nuclear has grown as renewables offer faster return on investment and benefit from robust public and private incentives.
 
-\subsection{Migration from Nuclear to Renewable Energy Sectors}
-
-Global investment patterns show a clear transition from nuclear to renewables. Engineering giants like Siemens and General Electric have scaled back or entirely exited nuclear ventures in favor of wind, solar, and energy storage \autocite{iea2020}. In 2022 alone, global capital expenditures on solar and wind eclipsed nuclear investments by more than fivefold \autocite{wnisr2022}.
-
 This migration is not merely market-driven; it is reinforced by regulatory environments. Post-Fukushima mandates have led to stricter safety requirements and more frequent inspections, raising compliance and licensing costs. Some U.S. plants face annual regulatory costs in excess of \$20 million \autocite{aafnuclearcosts}. These growing financial burdens make nuclear projects less attractive in both the public and private sectors.
-
-\subsection{Integration Challenges and Opportunities}
 
 Despite economic challenges, nuclear energy offers unique value as a source of stable baseload power. This makes it an ideal complement to intermittent renewable sources like wind and solar. However, current policy frameworks often prioritize short-term carbon reduction via rapidly deployable renewables, sidelining nuclear investments that require long lead times and upfront capital.
 
@@ -494,3 +511,4 @@ my own.}
 \endgroup
 
 \end{document}
+% vim: set ft=tex tw=80 ts=2 sts=2 sw=2 noet spell:

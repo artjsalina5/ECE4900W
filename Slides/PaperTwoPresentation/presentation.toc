@@ -1,6 +1,6 @@
-\beamer@sectionintoc {1}{Introduction}{8}{0}{1}
-\beamer@sectionintoc {2}{Instrumentation and Control}{9}{0}{2}
-\beamer@sectionintoc {3}{Historical Lessons}{11}{0}{3}
-\beamer@sectionintoc {4}{Human Factors}{19}{0}{4}
-\beamer@sectionintoc {5}{Economic Challenges}{21}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{23}{0}{6}
+\beamer@sectionintoc {1}{Introduction}{5}{0}{1}
+\beamer@sectionintoc {2}{Reactor Designs and Sensors}{11}{0}{2}
+\beamer@sectionintoc {3}{Historical Accidents}{18}{0}{3}
+\beamer@sectionintoc {4}{Human and Ethical Design}{36}{0}{4}
+\beamer@sectionintoc {5}{The Road Ahead}{47}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{51}{0}{6}

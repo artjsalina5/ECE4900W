@@ -1,0 +1,6 @@
+set_pdf("demo.pdf")
+show_slide(1)
+delay(0)
+speak("""Hello! You are viewing an example presentation that shows how tavox is used.""")
+delay(0)
+

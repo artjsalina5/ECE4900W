@@ -1,47 +1,13 @@
-\contentsline {section}{Abstract}{3}{Doc-Start}%
-\contentsline {section}{\numberline {I}Introduction}{4}{section.1}%
-\contentsline {section}{\numberline {II}Instrumentation and Control (I\&C) Systems}{4}{section.2}%
-\contentsline {subsection}{\numberline {A.}Types of Plants}{4}{subsection.2.1}%
-\contentsline {subsection}{\numberline {B.}Reactor Monitoring Principles}{5}{subsection.2.2}%
-\contentsline {subsubsection}{\numberline {1)}Thermal and Neutron Sensing.}{5}{subsubsection.2.2.1}%
-\contentsline {subsubsection}{\numberline {2)}Coolant and Moderator Instrumentation.}{6}{subsubsection.2.2.2}%
-\contentsline {subsubsection}{\numberline {3)}Control and Structural Monitoring.}{6}{subsubsection.2.2.3}%
-\contentsline {subsubsection}{\numberline {4)}Steam and Turbine System Sensing.}{6}{subsubsection.2.2.4}%
-\contentsline {subsubsection}{\numberline {5)}Integration with Digital Systems.}{7}{subsubsection.2.2.5}%
-\contentsline {subsection}{\numberline {C.}Computerized Protection Systems}{7}{subsection.2.3}%
-\contentsline {section}{\numberline {III}Historical Lessons in Reactor Safety}{8}{section.3}%
-\contentsline {subsection}{\numberline {A.}SL-1: The First Fatal U.S. Reactor Accident}{8}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {1)}Sequence of Events}{9}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {2)}Root Cause Analysis}{9}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3)}Engineering and Human Factors Implications}{9}{subsubsection.3.1.3}%
-\contentsline {subsubsection}{\numberline {4)}Aftermath and Lessons Learned}{9}{subsubsection.3.1.4}%
-\contentsline {subsection}{\numberline {B.}Three Mile Island: Interface Confusion and Human Factors}{10}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {1)}Sequence of Events}{10}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {2)}Design Oversights and Interface Failures}{10}{subsubsection.3.2.2}%
-\contentsline {subsubsection}{\numberline {3)}Human Factors and System Complexity}{11}{subsubsection.3.2.3}%
-\contentsline {subsubsection}{\numberline {4)}Legacy and Regulatory Reform}{11}{subsubsection.3.2.4}%
-\contentsline {subsection}{\numberline {C.}Chernobyl and Reactor Design Faults}{12}{subsection.3.3}%
-\contentsline {subsubsection}{\numberline {1)}Background and Test Scenario}{12}{subsubsection.3.3.1}%
-\contentsline {subsubsection}{\numberline {2)}Design Flaws and Positive Feedback}{12}{subsubsection.3.3.2}%
-\contentsline {subsubsection}{\numberline {3)}SCRAM-Induced Prompt Criticality}{12}{subsubsection.3.3.3}%
-\contentsline {subsubsection}{\numberline {4)}Core Destruction and Radiation Release}{12}{subsubsection.3.3.4}%
-\contentsline {subsubsection}{\numberline {5)}Operator Training and System Transparency}{13}{subsubsection.3.3.5}%
-\contentsline {subsubsection}{\numberline {6)}Aftermath and Human Toll}{13}{subsubsection.3.3.6}%
-\contentsline {subsubsection}{\numberline {7)}Legacy of Chernobyl}{14}{subsubsection.3.3.7}%
-\contentsline {subsection}{\numberline {D.}Fukushima-Daiichi: Environmental Consequences}{14}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {1)}Earthquake and Tsunami Impact}{14}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {2)}Station Blackout and Core Meltdown}{15}{subsubsection.3.4.2}%
-\contentsline {subsubsection}{\numberline {3)}Loss of Monitoring and Improvised Measures}{15}{subsubsection.3.4.3}%
-\contentsline {subsubsection}{\numberline {4)}Environmental and Human Consequences}{15}{subsubsection.3.4.4}%
-\contentsline {subsubsection}{\numberline {5)}U.S. Naval Involvement and Humanitarian Support}{15}{subsubsection.3.4.5}%
-\contentsline {section}{\numberline {IV}Human Factors: The Ethical Dimension of Automation}{16}{section.4}%
-\contentsline {subsection}{\numberline {A.}Human Factors Engineering}{16}{subsection.4.1}%
-\contentsline {subsection}{\numberline {B.}Operator Experience}{16}{subsection.4.2}%
-\contentsline {subsection}{\numberline {C.}Ethical Limits of Automation}{17}{subsection.4.3}%
-\contentsline {section}{\numberline {V}Economic Realities and Infrastructure Decline}{18}{section.5}%
-\contentsline {subsection}{\numberline {A.}Waste Management and Decommissioning Costs}{18}{subsection.5.1}%
-\contentsline {subsection}{\numberline {B.}Construction and Design of Future Plants}{19}{subsection.5.2}%
-\contentsline {subsection}{\numberline {C.}Migration from Nuclear to Renewable Energy Sectors}{19}{subsection.5.3}%
-\contentsline {subsection}{\numberline {D.}Integration Challenges and Opportunities}{19}{subsection.5.4}%
-\contentsline {section}{\numberline {VI}Conclusion: A Cautious Return to the Atom}{20}{section.6}%
-\contentsline {section}{References}{21}{section.6}%
+\contentsline {section}{Abstract}{2}{Doc-Start}%
+\contentsline {section}{\numberline {I}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {II}Technology Description}{3}{section.2}%
+\contentsline {subsection}{\numberline {A.}Instrumentation and Control (I\&C) Systems}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {B.}Automatic Protection}{7}{subsection.2.2}%
+\contentsline {section}{\numberline {III}Broader Impacts}{9}{section.3}%
+\contentsline {subsection}{\numberline {A.}Historical Lessons in Reactor Safety}{9}{subsection.3.1}%
+\contentsline {subsection}{\numberline {B.}Human Factors: The Ethical Dimension of Automation}{14}{subsection.3.2}%
+\contentsline {subsection}{\numberline {C.}Economic Realities and Infrastructure Decline}{16}{subsection.3.3}%
+\contentsline {subsection}{\numberline {D.}Waste Management and Decommissioning Costs}{17}{subsection.3.4}%
+\contentsline {subsection}{\numberline {E.}Construction and Design of Future Plants: The Societal Impact}{17}{subsection.3.5}%
+\contentsline {section}{\numberline {IV}Conclusion: A Cautious Return to the Atom}{18}{section.4}%
+\contentsline {section}{References}{19}{section.4}%

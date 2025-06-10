@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{none/global//global/global/global}
-    \entry{ichandbook}{report}{}{}
+  \datalist[entry]{none/global//global/global}
+    \entry{ichandbook}{report}{}
       \name{author}{2}{}{%
         {{hash=bc6130c694184ee104e09a3d4c75381a}{%
            family={Harrer},
@@ -37,12 +37,10 @@
       }
       \strng{namehash}{2d247b9ecf7398b19e0eed8dd56067c8}
       \strng{fullhash}{2d247b9ecf7398b19e0eed8dd56067c8}
-      \strng{fullhashraw}{2d247b9ecf7398b19e0eed8dd56067c8}
       \strng{bibnamehash}{2d247b9ecf7398b19e0eed8dd56067c8}
       \strng{authorbibnamehash}{2d247b9ecf7398b19e0eed8dd56067c8}
       \strng{authornamehash}{2d247b9ecf7398b19e0eed8dd56067c8}
       \strng{authorfullhash}{2d247b9ecf7398b19e0eed8dd56067c8}
-      \strng{authorfullhashraw}{2d247b9ecf7398b19e0eed8dd56067c8}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -59,7 +57,7 @@
       \verb https://www.nrc.gov/docs/ML1403/ML14031A424.pdf
       \endverb
     \endentry
-    \entry{nuctech}{book}{}{}
+    \entry{nuctech}{book}{}
       \name{author}{2}{}{%
         {{hash=0cdd94767562fdd684820783cc411990}{%
            family={Pearson},
@@ -80,12 +78,10 @@
       }
       \strng{namehash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \strng{fullhash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
-      \strng{fullhashraw}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \strng{bibnamehash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \strng{authorbibnamehash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \strng{authornamehash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \strng{authorfullhash}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
-      \strng{authorfullhashraw}{0ffbf96ddd1fd77f5707e0f4e3658dfd}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -96,7 +92,7 @@
       \field{pages}{288}
       \range{pages}{1}
     \endentry
-    \entry{moderninstruments}{report}{}{}
+    \entry{moderninstruments}{report}{}
       \name{author}{1}{}{%
         {{hash=a120b3091ba982e2e21b4d053f5ff51e}{%
            family={{International Atomic Energy Agency}},
@@ -107,12 +103,10 @@
       }
       \strng{namehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{fullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{fullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{bibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorbibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authornamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorfullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{authorfullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \field{extraname}{1}
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
@@ -124,7 +118,7 @@
       \field{year}{1999}
       \field{dateera}{ce}
     \endentry
-    \entry{sl1report}{article}{}{}
+    \entry{sl1report}{article}{}
       \name{author}{1}{}{%
         {{hash=e51805428aec85f1b052c8966fa7a132}{%
            family={Engineering},
@@ -137,12 +131,10 @@
       }
       \strng{namehash}{e51805428aec85f1b052c8966fa7a132}
       \strng{fullhash}{e51805428aec85f1b052c8966fa7a132}
-      \strng{fullhashraw}{e51805428aec85f1b052c8966fa7a132}
       \strng{bibnamehash}{e51805428aec85f1b052c8966fa7a132}
       \strng{authorbibnamehash}{e51805428aec85f1b052c8966fa7a132}
       \strng{authornamehash}{e51805428aec85f1b052c8966fa7a132}
       \strng{authorfullhash}{e51805428aec85f1b052c8966fa7a132}
-      \strng{authorfullhashraw}{e51805428aec85f1b052c8966fa7a132}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
@@ -159,7 +151,7 @@
       \verb http://large.stanford.edu/courses/2017/ph241/berrios1/docs/ido-19300.pdf
       \endverb
     \endentry
-    \entry{tmiwalker}{book}{}{}
+    \entry{tmiwalker}{book}{}
       \name{author}{1}{}{%
         {{hash=4e309791a045d64feeca28deb07b30b7}{%
            family={Walker},
@@ -176,12 +168,10 @@
       }
       \strng{namehash}{4e309791a045d64feeca28deb07b30b7}
       \strng{fullhash}{4e309791a045d64feeca28deb07b30b7}
-      \strng{fullhashraw}{4e309791a045d64feeca28deb07b30b7}
       \strng{bibnamehash}{4e309791a045d64feeca28deb07b30b7}
       \strng{authorbibnamehash}{4e309791a045d64feeca28deb07b30b7}
       \strng{authornamehash}{4e309791a045d64feeca28deb07b30b7}
       \strng{authorfullhash}{4e309791a045d64feeca28deb07b30b7}
-      \strng{authorfullhashraw}{4e309791a045d64feeca28deb07b30b7}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -189,7 +179,7 @@
       \field{title}{Three Mile Island: a nuclear crisis in a historical perspective}
       \field{year}{2004}
     \endentry
-    \entry{meshkati1991human}{article}{}{}
+    \entry{meshkati1991human}{article}{}
       \name{author}{1}{}{%
         {{hash=3831385f9302823ce625bb3f22073a36}{%
            family={Meshkati},
@@ -199,12 +189,10 @@
       }
       \strng{namehash}{3831385f9302823ce625bb3f22073a36}
       \strng{fullhash}{3831385f9302823ce625bb3f22073a36}
-      \strng{fullhashraw}{3831385f9302823ce625bb3f22073a36}
       \strng{bibnamehash}{3831385f9302823ce625bb3f22073a36}
       \strng{authorbibnamehash}{3831385f9302823ce625bb3f22073a36}
       \strng{authornamehash}{3831385f9302823ce625bb3f22073a36}
       \strng{authorfullhash}{3831385f9302823ce625bb3f22073a36}
-      \strng{authorfullhashraw}{3831385f9302823ce625bb3f22073a36}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
@@ -224,7 +212,7 @@
       \verb https://doi.org/10.1177/108602669100500203
       \endverb
     \endentry
-    \entry{wna2023chernobyl}{online}{}{}
+    \entry{wna2023chernobyl}{online}{}
       \name{author}{1}{}{%
         {{hash=e61cc687e60515b13e6432626b384651}{%
            family={{World Nuclear Association}},
@@ -232,12 +220,10 @@
       }
       \strng{namehash}{e61cc687e60515b13e6432626b384651}
       \strng{fullhash}{e61cc687e60515b13e6432626b384651}
-      \strng{fullhashraw}{e61cc687e60515b13e6432626b384651}
       \strng{bibnamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authorbibnamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authornamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authorfullhash}{e61cc687e60515b13e6432626b384651}
-      \strng{authorfullhashraw}{e61cc687e60515b13e6432626b384651}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -253,7 +239,7 @@
       \verb https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/chernobyl-accident.aspx
       \endverb
     \endentry
-    \entry{iaea1992chernobyl}{report}{}{}
+    \entry{iaea1992chernobyl}{report}{}
       \name{author}{1}{}{%
         {{hash=a120b3091ba982e2e21b4d053f5ff51e}{%
            family={{International Atomic Energy Agency}},
@@ -264,12 +250,10 @@
       }
       \strng{namehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{fullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{fullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{bibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorbibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authornamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorfullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{authorfullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \field{extraname}{2}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -287,7 +271,7 @@
       \verb https://www-pub.iaea.org/MTCD/publications/PDF/Pub913e_web.pdf
       \endverb
     \endentry
-    \entry{nrc_chernobyl}{misc}{}{}
+    \entry{nrc_chernobyl}{misc}{}
       \name{author}{1}{}{%
         {{hash=29c747bebb29967b1fa5125ef8b9fd8b}{%
            family={{U.S. Nuclear Regulatory Commission}},
@@ -295,12 +279,10 @@
       }
       \strng{namehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{fullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
-      \strng{fullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{bibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authorbibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authornamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authorfullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
-      \strng{authorfullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
       \field{extraname}{1}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
@@ -316,32 +298,7 @@
       \verb https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/chernobyl-bg.html
       \endverb
     \endentry
-    \entry{mitocw_rbmkreview}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=e9c1013deeab62b5d36a0952169fb041}{%
-           family={Driscoll},
-           familyi={D\bibinitperiod},
-           given={Michael\bibnamedelima J.},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{fullhash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{fullhashraw}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{bibnamehash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{authorbibnamehash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{authornamehash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{authorfullhash}{e9c1013deeab62b5d36a0952169fb041}
-      \strng{authorfullhashraw}{e9c1013deeab62b5d36a0952169fb041}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://ocw.mit.edu}}
-      \field{note}{Accessed: 2025-06-06}
-      \field{title}{RBMK Reactor Characteristics -- Nuclear Systems Design Project (22.33)}
-      \field{year}{2004}
-    \endentry
-    \entry{medvedev1991truth}{book}{}{}
+    \entry{medvedev1991truth}{book}{}
       \name{author}{1}{}{%
         {{hash=c14226b8c7485a46916f1a3828a5294d}{%
            family={Medvedev},
@@ -354,12 +311,10 @@
       }
       \strng{namehash}{c14226b8c7485a46916f1a3828a5294d}
       \strng{fullhash}{c14226b8c7485a46916f1a3828a5294d}
-      \strng{fullhashraw}{c14226b8c7485a46916f1a3828a5294d}
       \strng{bibnamehash}{c14226b8c7485a46916f1a3828a5294d}
       \strng{authorbibnamehash}{c14226b8c7485a46916f1a3828a5294d}
       \strng{authornamehash}{c14226b8c7485a46916f1a3828a5294d}
       \strng{authorfullhash}{c14226b8c7485a46916f1a3828a5294d}
-      \strng{authorfullhashraw}{c14226b8c7485a46916f1a3828a5294d}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -368,7 +323,7 @@
       \field{title}{The Truth About Chernobyl}
       \field{year}{1991}
     \endentry
-    \entry{iaea_fukushima_report}{report}{}{}
+    \entry{iaea_fukushima_report}{report}{}
       \name{author}{1}{}{%
         {{hash=a120b3091ba982e2e21b4d053f5ff51e}{%
            family={{International Atomic Energy Agency}},
@@ -379,12 +334,10 @@
       }
       \strng{namehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{fullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{fullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{bibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorbibnamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authornamehash}{a120b3091ba982e2e21b4d053f5ff51e}
       \strng{authorfullhash}{a120b3091ba982e2e21b4d053f5ff51e}
-      \strng{authorfullhashraw}{a120b3091ba982e2e21b4d053f5ff51e}
       \field{extraname}{3}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -400,7 +353,7 @@
       \verb https://www-pub.iaea.org/MTCD/Publications/PDF/AdditionalVolumes/P1710/Publication/Fukushima-Daiichi_accident_report.pdf
       \endverb
     \endentry
-    \entry{worldnuclear_fukushima_review}{misc}{}{}
+    \entry{worldnuclear_fukushima_review}{misc}{}
       \name{author}{1}{}{%
         {{hash=e61cc687e60515b13e6432626b384651}{%
            family={{World Nuclear Association}},
@@ -408,12 +361,10 @@
       }
       \strng{namehash}{e61cc687e60515b13e6432626b384651}
       \strng{fullhash}{e61cc687e60515b13e6432626b384651}
-      \strng{fullhashraw}{e61cc687e60515b13e6432626b384651}
       \strng{bibnamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authorbibnamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authornamehash}{e61cc687e60515b13e6432626b384651}
       \strng{authorfullhash}{e61cc687e60515b13e6432626b384651}
-      \strng{authorfullhashraw}{e61cc687e60515b13e6432626b384651}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -429,7 +380,7 @@
       \verb https://world-nuclear.org/information-library/safety-and-security/safety-of-plants/fukushima-daiichi-accident.aspx
       \endverb
     \endentry
-    \entry{nrc_fukushima}{misc}{}{}
+    \entry{nrc_fukushima}{misc}{}
       \name{author}{1}{}{%
         {{hash=29c747bebb29967b1fa5125ef8b9fd8b}{%
            family={{U.S. Nuclear Regulatory Commission}},
@@ -437,12 +388,10 @@
       }
       \strng{namehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{fullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
-      \strng{fullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{bibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authorbibnamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authornamehash}{29c747bebb29967b1fa5125ef8b9fd8b}
       \strng{authorfullhash}{29c747bebb29967b1fa5125ef8b9fd8b}
-      \strng{authorfullhashraw}{29c747bebb29967b1fa5125ef8b9fd8b}
       \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -458,12 +407,12 @@
       \verb https://www.nrc.gov/reading-rm/doc-collections/fact-sheets/japan-events.html
       \endverb
     \endentry
-    \entry{iec60964}{misc}{}{}
+    \entry{iec60964}{misc}{}
       \list{organization}{1}{%
         {International Electrotechnical Commission}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-06-06}
       \field{number}{IEC 60964:2009}
@@ -476,7 +425,7 @@
       \verb https://webstore.iec.ch/publication/724
       \endverb
     \endentry
-    \entry{iec964}{report}{}{}
+    \entry{iec964}{report}{}
       \name{author}{1}{}{%
         {{hash=9e280410f0a63eb8d57c6371141295c7}{%
            family={Commision},
@@ -492,21 +441,19 @@
       }
       \strng{namehash}{9e280410f0a63eb8d57c6371141295c7}
       \strng{fullhash}{9e280410f0a63eb8d57c6371141295c7}
-      \strng{fullhashraw}{9e280410f0a63eb8d57c6371141295c7}
       \strng{bibnamehash}{9e280410f0a63eb8d57c6371141295c7}
       \strng{authorbibnamehash}{9e280410f0a63eb8d57c6371141295c7}
       \strng{authornamehash}{9e280410f0a63eb8d57c6371141295c7}
       \strng{authorfullhash}{9e280410f0a63eb8d57c6371141295c7}
-      \strng{authorfullhashraw}{9e280410f0a63eb8d57c6371141295c7}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Design for Control Rooms of Nuclear Power Plants, Standard 964}
       \field{type}{techreport}
       \field{year}{1989}
     \endentry
-    \entry{wnisr2022}{report}{}{}
+    \entry{wnisr2022}{report}{}
       \name{author}{2}{}{%
         {{hash=1201cd0e6543817afac8c0ea13532d8c}{%
            family={Schneider},
@@ -521,12 +468,10 @@
       }
       \strng{namehash}{5aca3d1c5015afd601459169a758d4b6}
       \strng{fullhash}{5aca3d1c5015afd601459169a758d4b6}
-      \strng{fullhashraw}{5aca3d1c5015afd601459169a758d4b6}
       \strng{bibnamehash}{5aca3d1c5015afd601459169a758d4b6}
       \strng{authorbibnamehash}{5aca3d1c5015afd601459169a758d4b6}
       \strng{authornamehash}{5aca3d1c5015afd601459169a758d4b6}
       \strng{authorfullhash}{5aca3d1c5015afd601459169a758d4b6}
-      \strng{authorfullhashraw}{5aca3d1c5015afd601459169a758d4b6}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -545,7 +490,7 @@
       \verb https://www.worldnuclearreport.org/
       \endverb
     \endentry
-    \entry{doe2020}{report}{}{}
+    \entry{doe2020}{report}{}
       \name{author}{1}{}{%
         {{hash=7f6cd5b5b184ad5dcf66198edda1fe77}{%
            family={{U.S. Department of Energy}},
@@ -553,12 +498,10 @@
       }
       \strng{namehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{fullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{fullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{bibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorbibnamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authornamehash}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \strng{authorfullhash}{7f6cd5b5b184ad5dcf66198edda1fe77}
-      \strng{authorfullhashraw}{7f6cd5b5b184ad5dcf66198edda1fe77}
       \field{sortinit}{3}
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
@@ -577,7 +520,7 @@
       \verb https://www.energy.gov/sites/default/files/2020-09/restoring-americas-competitive-nuclear-energy-advantage.pdf
       \endverb
     \endentry
-    \entry{aafnuclearcosts}{misc}{}{}
+    \entry{aafnuclearcosts}{misc}{}
       \name{author}{1}{}{%
         {{hash=7d7dbd285deda848d713a46561fdf77b}{%
            family={Forum},
@@ -587,14 +530,12 @@
       }
       \strng{namehash}{7d7dbd285deda848d713a46561fdf77b}
       \strng{fullhash}{7d7dbd285deda848d713a46561fdf77b}
-      \strng{fullhashraw}{7d7dbd285deda848d713a46561fdf77b}
       \strng{bibnamehash}{7d7dbd285deda848d713a46561fdf77b}
       \strng{authorbibnamehash}{7d7dbd285deda848d713a46561fdf77b}
       \strng{authornamehash}{7d7dbd285deda848d713a46561fdf77b}
       \strng{authorfullhash}{7d7dbd285deda848d713a46561fdf77b}
-      \strng{authorfullhashraw}{7d7dbd285deda848d713a46561fdf77b}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{note}{Accessed: 2025-06-06}
@@ -607,35 +548,7 @@
       \verb https://www.americanactionforum.org/research/the-cost-of-nuclear-power/
       \endverb
     \endentry
-    \entry{iea2020}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=b33b47b3008c8c47f90a77e0c2dd3060}{%
-           family={{International Energy Agency}},
-           familyi={I\bibinitperiod}}}%
-      }
-      \strng{namehash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{fullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{fullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{bibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{authorbibnamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{authornamehash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{authorfullhash}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \strng{authorfullhashraw}{b33b47b3008c8c47f90a77e0c2dd3060}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{note}{Accessed: 2025-06-06}
-      \field{title}{World Energy Investment 2020}
-      \field{year}{2020}
-      \verb{urlraw}
-      \verb https://www.iea.org/reports/world-energy-investment-2020
-      \endverb
-      \verb{url}
-      \verb https://www.iea.org/reports/world-energy-investment-2020
-      \endverb
-    \endentry
-    \entry{abdussami2025future}{article}{}{}
+    \entry{abdussami2025future}{article}{}
       \name{author}{2}{}{%
         {{hash=c8da1ef3ee9581a37678f543d628ac62}{%
            family={Abdussami},
@@ -650,14 +563,12 @@
       }
       \strng{namehash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{fullhash}{c5ef2b630af7f10ae49a1fe55333af1e}
-      \strng{fullhashraw}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{bibnamehash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{authorbibnamehash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{authornamehash}{c5ef2b630af7f10ae49a1fe55333af1e}
       \strng{authorfullhash}{c5ef2b630af7f10ae49a1fe55333af1e}
-      \strng{authorfullhashraw}{c5ef2b630af7f10ae49a1fe55333af1e}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issn}{0306-2619}
