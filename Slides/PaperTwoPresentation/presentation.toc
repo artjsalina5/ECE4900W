@@ -1,6 +1,7 @@
-\beamer@sectionintoc {1}{Introduction}{5}{0}{1}
-\beamer@sectionintoc {2}{Reactor Designs and Sensors}{11}{0}{2}
-\beamer@sectionintoc {3}{Historical Accidents}{18}{0}{3}
-\beamer@sectionintoc {4}{Human and Ethical Design}{36}{0}{4}
-\beamer@sectionintoc {5}{The Road Ahead}{47}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{51}{0}{6}
+\beamer@sectionintoc {1}{Introduction}{3}{0}{1}
+\beamer@sectionintoc {2}{Reactor Designs and Sensors}{7}{0}{2}
+\beamer@sectionintoc {3}{Broader Impacts}{9}{0}{3}
+\beamer@subsectionintoc {3}{1}{Historical Accidents: The Environmental Impact}{9}{0}{3}
+\beamer@subsectionintoc {3}{2}{The Societal Impact of Nuclear Power}{17}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Economic Impact}{18}{0}{3}
+\beamer@sectionintoc {4}{Conclusion}{19}{0}{4}

@@ -1,7 +1,7 @@
 % ECE4900W Communicating Engineering Solutions
 % Author: Arturo Salinas-Aguayo <artjsalina5@uconn.edu>
 \documentclass{beamer}
-\setbeameroption{show notes}
+%\setbeameroption{show only notes}
 \usetheme{Warsaw}
 \usecolortheme{dolphin}
 \usefonttheme{professionalfonts}
@@ -26,15 +26,25 @@
 
 \begin{frame}{Outline}
   \tableofcontents
-  \note{Here is the roadmap for this presentation. Each section builds on the last, culminating in a call for renewed responsibility and innovation in the nuclear field.}
+   \note{I will be going through some motivation as to why nuclear power is still safe, explain a little bit about how the fission process works and the instrumentation that is used to control the reaction. I will then go on to emphasize the broader impacts and tell the story as to why nuclear power has not been as widely adopted as it could have been. I will discuss the improvements to human factors engineering because of these, and talk about the economic, environmental, and societal impacts that these accidents have had on the nuclear industry as a whole.}
 \end{frame}
 
 \section{Introduction}
+
 \begin{frame}
-  \centering
+  \begin{columns}
+    \column{0.48\textwidth}
   \includegraphics[width=\textwidth]{enterprise}
-  \notes{i've been hearing a lot of misunderstanding when it comes to this epic photograph taken on july 31, 1964 with the uss enterprise, the uss long island, and the uss bainbridge. e = mc^2 refers to the fact that as the mass of the fuel increases, the potential for it to create energy is proprotional with that multiplied times the speed of light squared. the us navy was a big push for nuclear power and the enterprise alone had 8 submarine reactors powering her.}
+    \column{0.48\textwidth}
+    \begin{itemize}
+      \item Nuclear power plants are designed to be safe and efficient.
+      \item Instrumentation plays a critical role in monitoring and control.
+      \item Human oversight is essential for safe operation.
+    \end{itemize}
+  \note{I've been hearing a lot of misunderstanding when it comes to this epic photograph taken on july 31, 1964 with the uss enterprise, the uss long beach, and the uss bainbridge. People generally think that the sailors aboard irrelevantly spelled $e = mc^2$. This is just a response out of ignorance however. The formula refers to the fact that as the mass of the fuel increases, the potential for it to create energy is proprotional with that multiplied times the speed of light squared. This was a demonstration of force and showing the world the US Navy's capabilities in the nuclear age. The Enterprise was the first nuclear-powered aircraft carrier with 8 submarine reactors. The uss long beach and uss bainbridge were also powered by dual surface developed reactors.}
+\end{columns}
 \end{frame}
+
 \begin{frame}{Motivation}
   \subsubsection*{Why Nuclear Now?}
   \begin{itemize}
@@ -42,7 +52,7 @@
     \item Nearly zero emissions, independent of weather
     \item Risks of failure—catastrophic if unmanaged
   \end{itemize}
-  \notes{Despite fears, nuclear remains one of the most efficient and clean energy sources. But it requires precision and care at every level.}
+  \note{Despite fears, nuclear remains one of the most efficient and clean energy sources. But it requires precision and care at every level.}
 \end{frame}
 
 \begin{frame}{The Fission Process}
@@ -68,71 +78,84 @@
     \item $\rho = 0$: critical (steady power)
     \item $\rho < 0$: subcritical (power decreases)
   \end{itemize}
-  \note{Instrumentation exists to measure and control reactivity—avoiding runaway reactions like those at SL-1 and Chernobyl.}
+  \note{This is our friend Keff. The effective multiplication factor. The effective multiplication factor is just a measure of the average amount of thermal neutrons produced in one neutron lifecycle. The ratio of keff - 1 divided by keff forms a measurement called reactivity. A critical reactor has a keff of 1, a subcritical reactor has a keff of less than 1, and a supercritical reactor has a keff of greater than 1. }
 \end{frame}
 
 \section{Reactor Designs and Sensors}
 
-\begin{frame}{Types of Reactors}
-  \begin{itemize}
-    \item Pressurized Water Reactor (PWR)
-    \item Boiling Water Reactor (BWR)
-    \item Heavy Water Reactor (CANDU)
-    \item Advanced Gas-cooled Reactor (AGR)
-  \end{itemize}
-  \note{Each design uses different coolants and moderators, which affect safety logic and monitoring strategies.}
-\end{frame}
+\begin{frame}{Types of Reactors and PWR Instrumentation}
+  \begin{columns}
+    \column{0.48\textwidth}
+    \includegraphics[width=\textwidth]{instrumentation.png}
 
-\begin{frame}{PWR Instrumentation}
-  \centering
-  \includegraphics[width=0.8\textwidth]{instrumentation.png}
-  \note{PWRs are the most common worldwide. Sensors track neutron flux, coolant temperature, rod position, pressure, and flow rate.}
+    \column{0.48\textwidth}
+    \begin{itemize}
+      \item Pressurized Water Reactor (PWR)
+      \item Boiling Water Reactor (BWR)
+      \item Heavy Water Reactor (CANDU)
+      \item Advanced Gas-cooled Reactor (AGR)
+    \end{itemize}
+  \note{
+    Each design uses different coolants and moderators, which affect safety logic and monitoring strategies.\\
+    PWRs are the most common worldwide. Sensors track neutron flux, coolant temperature, rod position, pressure, and flow rate.
+  }
+  \end{columns}
 \end{frame}
 
 \begin{frame}{Automatic Protection Systems}
   \subsubsection*{SCRAMs and Interlocks}
-  \note{Even the best operator can’t always react fast enough. That’s where automatic systems step in. SCRAMs instantly insert control rods. Protection logic compares real-time data to safety limits, triggering shutdowns, alarms, or backup actuation.}
+  \begin{columns}
+    \column{0.49\textwidth}
+    \includegraphics[width=0.95\textwidth]{safetylogic}
+
+    \column{0.48\textwidth}
   \begin{itemize}
     \item Reactor protection systems (RPS): monitor reactivity, temperature, pressure
     \item Logic interlocks: prevent unsafe configurations
     \item Hardwired paths with digital backups
   \end{itemize}
-\end{frame}
-\begin{frame}{Control Logic}
-  \centering
-  \includegraphics[width=0.95\textwidth]{safetylogic}
+  \note{Even the best operator can’t always react fast enough. That’s where automatic systems step in. SCRAMs instantly insert control rods. Protection logic compares real-time data to safety limits, triggering shutdowns, alarms, or backup actuation.}
+\end{columns}
 \end{frame}
 
-\section{Historical Accidents}
-
+\section{Broader Impacts}
+\subsection{Historical Accidents: The Environmental Impact}
 \begin{frame}{SL-1: Prompt Critical Accident}
-  \centering
-  \includegraphics[width=0.4\textwidth]{sl1diagram.jpg}
-  \note{Local firefighters arrived in response to a fire alarm and found the facility abandoned.
-Coffee cups remained warm, and food was left uneaten. As radiation alarms activated on their
-dosimetry equipment, they realized a serious radiological event had occurred. Two operators
-were located dead from radiation exposure. The third, Richard Legg, was discovered impaled
-and pinned to the containment ceiling by a control rod—ejected upward during the reactor’s
-prompt critical event.}
-\end{frame}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{sl1diagram.jpg}
 
-\begin{frame}{SL-1: Prompt Critical Accident}
+  \column{0.48\textwidth}
   \begin{itemize}
     \item Occurred January 3, 1961 in Idaho Falls.
     \item A single control rod was withdrawn manually beyond safe limits.
     \item Caused an instantaneous power excursion and steam explosion.
     \item All three operators died; first fatal U.S. nuclear accident.
   \end{itemize}
-  \note{Despite repeated reports of sticking rods, the system lacked mechanical or procedural
-interlocks to prevent rapid withdrawal. A single operator retained full manual control, with
-no redundancy or supervisory lockouts. The SL-1 event shows the critical role of human
-factors engineering, particularly in minimizing design interfaces that allow unsafe manual
-operations}
+  \note{Local firefighters arrived in response to a fire alarm and found the facility abandoned.
+Coffee cups remained warm, and food was left uneaten. As radiation alarms activated on their
+dosimetry equipment, they realized a serious radiological event had occurred. Two operators
+were located dead from radiation exposure. The third, Richard Legg, was discovered impaled
+and pinned to the containment ceiling by a control rod—ejected upward during the reactor’s
+prompt critical event.}
+\end{columns}
 \end{frame}
 
+
 \begin{frame}{Three Mile Island: Partial Core Meltdown}
-  \centering
-  \includegraphics[width=0.75\textwidth]{tmicontrolroom.png}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{tmicontrolroom.png}
+
+\column{0.48\textwidth}
+  \begin{itemize}
+    \item March 28, 1979 in Pennsylvania.
+    \item Equipment failure: relief valve stuck open.
+    \item Operator misinterpretation led to coolant pump shutdown.
+    \item Reactor overheated—partial meltdown of core.
+  \end{itemize}
+\end{columns}
+
   \note{The Three Mile Island Unit 2 (TMI-2) accident occurred on March 28, 1979, near Harrisburg,
 Pennsylvania, and remains the most serious commercial nuclear accident in the United States.
 It was precipitated by the failure of a pressure-operated relief valve (PORV) that became
@@ -140,50 +163,28 @@ stuck open during a minor malfunction. The valve allowed coolant to escape from 
 pressurizer, but due to inadequate instrumentation, operators believed it had closed properly}
 \end{frame}
 
-\begin{frame}{Three Mile Island: Partial Core Meltdown}
-  \begin{itemize}
-    \item March 28, 1979 in Pennsylvania.
-    \item Equipment failure: relief valve stuck open.
-    \item Operator misinterpretation led to coolant pump shutdown.
-    \item Reactor overheated—partial meltdown of core.
-  \end{itemize}
-  \note{Prior to this event, the relationship between human performance and system design was
-underappreciated in reactor control engineering. It was often assumed that proper training
-and “common sense” would be sufficient for managing system faults. However, the TMI-
-2 accident highlighted that even well-trained operators can make catastrophic errors when
-systems are not designed to support human cognition under stress.
-As a result of this accident, the field of human factors engineering gained legitimacy within
-the nuclear industry. Organizational and industrial psychology—especially the study of
-ergonomics and operator-centered design—emerged as crucial disciplines in instrumentation
-and control system development [6]. Operators needed interfaces not merely for function, but
-for situational awareness and decision-making under pressure. This marked a turning point
-in control room design philosophies, ushering in era-defining updates to alarm management,
-display hierarchy, and interface logic}
-\end{frame}
-
 \begin{frame}{Chernobyl: Uncontrolled Power Surge}
-  \centering
-  \includegraphics[width=0.65\textwidth]{chernobylafter.jpg}
-  \note{The test intended to verify whether the rotational inertia
-of the turbine could temporarily power the emergency coolant pumps in the event of a
-grid power failure [7]. The RBMK-1000 reactor involved was a Soviet-designed graphite-
-moderated, water-cooled system—flawed by both design and execution}
-\end{frame}
-
-\begin{frame}{Chernobyl: Uncontrolled Power Surge}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{chernobylafter.jpg}
+\column{0.48\textwidth}
   \begin{itemize}
     \item April 26, 1986 in Pripyat, USSR.
     \item Unsafe test conducted at low power with flawed RBMK reactor.
-    \item Positive void coefficient caused rapid reactivity increase.
     \item Control rods exacerbated the surge due to graphite tips.
     \item Reactor exploded; massive radioactive release.
   \end{itemize}
-  \note{The core overheated instantly, rupturing fuel channels and vaporizing coolant. A vi-
+
+  \note{The test intended to verify whether the rotational inertia
+of the turbine could temporarily power the emergency coolant pumps in the event of a
+grid power failure [7]. The RBMK-1000 reactor involved was a Soviet-designed graphite-
+moderated, water-cooled system—flawed by both design and executionhe core overheated instantly, rupturing fuel channels and vaporizing coolant. A vi-
 olent steam explosion lifted the reactor’s 2,000-ton upper biological shield. A second ex-
 plosion—possibly from hydrogen or steam—further breached the structure and exposed the
 graphite moderator, which caught fire. Figure 6 shows the aftermath of the explosion mere
 hours after the explosion. The fire lofted radioactive particles into the upper atmosphere,
 affecting much of Europe }
+\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -198,6 +199,10 @@ precedented radioactive environment at the site}
 \end{frame}
 
 \begin{frame}{Fukushima Daiichi: Station Blackout}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{fukushimaafter.jpg}
+  \column{0.48\textwidth}
   \begin{itemize}
     \item March 11, 2011 in Japan.
     \item Magnitude 9.0 earthquake triggered tsunami.
@@ -210,80 +215,56 @@ affected. Although the three operating reactors—Units 1, 2, and 3—successful
 connections and emergency diesel generators [12]. This unprecedented loss of power across all
 units is illustrated in Figure 8, which shows the reactor buildings after successive hydrogen
 explosions.}
-\end{frame}
-
-\begin{frame}
-  \centering
-  \includegraphics[width=\textwidth]{fukushimaafter.jpg}
-  \note{Operators at Fukushima recognized the danger but were rendered effectively blind by
-the loss of power. Unlike U.S. Navy reactor systems—where portable test equipment such
-as Fluke digital multimeters can be attached to terminals for passive thermocouple read-
-ings—the Fukushima design lacked redundant manual monitoring options. In a desperate
-act of ingenuity, personnel retrieved car batteries from nearby vehicles and wired them in
-series to restore minimal voltage to power essential instrumentation. Unfortunately, by the
-time this improvised power source was implemented, core damage in Units 1, 2, and 3 was
-already underway, with partial or full meltdown confirmed in post-event analyses}
-\end{frame}
-
-\section{Human and Ethical Design}
-
-\begin{frame}{Human Operators: Essential Links}
-  \centering
-  \includegraphics[width=0.75\textwidth]{maneuvering-watch.jpg}
-  \note{}
+\end{columns}
 \end{frame}
 
 \begin{frame}{Human Operators: Essential Links}
-  \begin{itemize}
-    \item Human error was central to SL-1, TMI, and Chernobyl.
-    \item Operators are responsible for interpreting ambiguous or conflicting signals.
-    \item Training, vigilance, and mental workload matter.
-  \end{itemize}
-  \note{Despite automation, human judgment determines plant safety. Accidents often trace back to either misinterpretation or improper training.}
-\end{frame}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{maneuvering-watch.jpg}
+    \note{Human operators are the last line of defense. They interpret complex data, make decisions under pressure, and ensure systems operate safely. The operators in this picutre are in a room named maneuvering. In this tight cramped space, you can see the control panel to control the reactor, and further back the electric plant control panel of a S5W reactor powered ship.}
 
+    \column{0.48\textwidth}
+    \begin{itemize}
+      \item Operators monitor instrumentation and respond to alarms.
+      \item They must understand system behavior and safety limits.
+      \item Training and vigilance are critical for safe operation.
+    \end{itemize}
+  \end{columns}
+\end{frame}
 
 \begin{frame}{Human Factors Engineering}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{simulators.jpg}
+  \column{0.48\textwidth}
   \begin{itemize}
     \item Post-TMI, HFE became a formal discipline in nuclear plant design.
     \item Goals: reduce confusion, prevent overload, clarify alarms.
     \item INPO and NRC led redesigns of control interfaces.
   \end{itemize}
-  \note{Human-machine interface redesign became essential after TMI. Alarm logic, indicator layout, and system feedback were all reengineered.}
-\end{frame}
-
-\begin{frame}{Operator Training}
-  \centering
-  \includegraphics[width=0.75\textwidth]{simulators.jpg}
-\end{frame}
-
-\begin{frame}{Operator Training}
-  \begin{itemize}
-    \item U.S. Navy trains operators with year-long theoretical and practical curriculum.
-    \item Qualification cards enforce step-by-step system mastery.
-    \item Real-time simulators mimic full plant behavior—including failures.
-  \end{itemize}
-  \note{Simulators allow safe repetition of emergency scenarios. This procedural rigor is unmatched in civilian sectors.}
+  \note{Human-machine interface redesign became essential after TMI. Alarm logic, indicator layout, and system feedback were all reengineered. The need to provide complex and realistic simulation training for operators has increased tenfold since the 1980s.}
+\end{columns}
 \end{frame}
 
 \begin{frame}{Ethical Oversight in Automation}
-  \centering
-  \includegraphics[width=0.65\textwidth]{ethicaldesign.jpg}
-\end{frame}
-
-\begin{frame}{Ethical Oversight in Automation}
+  \begin{columns}
+    \column{0.48\textwidth}
+  \includegraphics[width=\textwidth]{ethicaldesign.jpg}
+  \column{0.48\textwidth}
   \begin{itemize}
     \item Systems must support—not replace—human oversight.
     \item Overreliance on automation can erode accountability.
     \item Ethical design considers failure modes, transparency, and operator input.
   \end{itemize}
   \note{Designing for ethical oversight means respecting human limits while reinforcing responsibility. The worst outcomes often arise when operators are sidelined.}
+\end{columns}
 \end{frame}
 
-\section{The Road Ahead}
 
+\subsection{The Societal Impact of Nuclear Power}
 \begin{frame}{Why Nuclear Declined}
-  \subsubsection*{Policy, Perception, and Paralysis}
+  \subsubsection*{Societal Impact: Policy, Perception, and Paralysis}
   \begin{itemize}
     \item Each accident—from SL-1 to Fukushima—prompted strict new regulations.
     \item Longer licensing cycles delayed new builds by decades.
@@ -292,7 +273,7 @@ already underway, with partial or full meltdown confirmed in post-event analyses
   \end{itemize}
   \note{The world walked away not because nuclear failed—but because faith in its management eroded. Regulation became slower, and expertise drifted away.}
 \end{frame}
-
+\subsection{The Economic Impact}
 \begin{frame}{Challenges Today}
   \begin{itemize}
     \item Most operating reactors in the U.S. are past mid-life.
@@ -300,14 +281,25 @@ already underway, with partial or full meltdown confirmed in post-event analyses
     \item Engineering firms that once supported nuclear have pivoted to renewables.
     \item Safety margins remain—but the supporting infrastructure has weakened.
   \end{itemize}
-  \note{Many of the companies and capabilities that built the first generation of plants no longer exist in their original form.}
+  \note{Many of the companies and capabilities that built the first generation of plants no longer exist in their original form. As a result, the ability to construct new certified plants has greatly diminished. The nuclear industry is now at a crossroads, where the lessons of the past must inform the future.}
 \end{frame}
 
 \section{Conclusion}
 
 \begin{frame}{Conclusion: A Deliberate Future}
-  \centering
-  \includegraphics[width=0.55\textwidth]{vogtle}
+  \begin{columns}
+    \column{0.45\textwidth}
+    \includegraphics[width=\textwidth]{vogtle}
+    \note{The future of nuclear power depends on our ability to learn from the past, innovate responsibly, and rebuild trust.}
+
+    \column{0.55\textwidth}
+    \begin{itemize}
+      \item Nuclear power is safe when designed, operated, and overseen with care.
+      \item Instrumentation and human oversight must evolve together.
+      \item Ethical design puts operators in control, not out of the loop.
+      \item The tools are available, what remains is the will to rebuild trust.
+    \end{itemize}
+  \end{columns}
 \end{frame}
 
 \begin{frame}{Conclusion: A Deliberate Future}
