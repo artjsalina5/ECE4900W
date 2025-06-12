@@ -2,6 +2,7 @@
 \beamer@sectionintoc {2}{Reactor Designs and Sensors}{7}{0}{2}
 \beamer@sectionintoc {3}{Broader Impacts}{9}{0}{3}
 \beamer@subsectionintoc {3}{1}{Historical Accidents: The Environmental Impact}{9}{0}{3}
-\beamer@subsectionintoc {3}{2}{The Societal Impact of Nuclear Power}{17}{0}{3}
-\beamer@subsectionintoc {3}{3}{The Economic Impact}{18}{0}{3}
+\beamer@subsectionintoc {3}{2}{Technological Impact}{14}{0}{3}
+\beamer@subsectionintoc {3}{3}{The Societal Impact of Nuclear Power}{17}{0}{3}
+\beamer@subsectionintoc {3}{4}{The Economic Impact}{18}{0}{3}
 \beamer@sectionintoc {4}{Conclusion}{19}{0}{4}
